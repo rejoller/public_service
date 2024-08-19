@@ -1,0 +1,8 @@
+.venv/
+config.py
+my_account*
+ *.pyc
+.vscode/
+*.ipynb
+__pycache__/
+utils/__pycache__/
