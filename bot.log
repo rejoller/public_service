@@ -1,0 +1,990 @@
+2024-08-19 14:25:55,280 - INFO - Start polling
+2024-08-19 14:25:55,425 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 14:29:28,441 - INFO - Received message from 964635576: /start
+2024-08-19 14:29:29,249 - INFO - Update id=792260412 is handled. Duration 829 ms by bot id=6235250605
+2024-08-19 14:43:34,089 - WARNING - Received SIGINT signal
+2024-08-19 14:43:34,095 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 14:43:34,096 - INFO - Polling stopped
+2024-08-19 15:01:21,864 - INFO - Start polling
+2024-08-19 15:01:22,072 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:01:33,953 - INFO - Received message from 964635576: /start
+2024-08-19 15:01:33,955 - INFO - Update id=792260413 is not handled. Duration 14 ms by bot id=6235250605
+2024-08-19 15:01:33,955 - ERROR - Cause exception while process update id=792260413 by bot id=6235250605
+AttributeError: module 'users.user_manager' has no attribute 'extract_user_data_from_message'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/start_command.py", line 20, in handle_start
+    user_data = user_manager.extract_user_data_from_message(message)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'users.user_manager' has no attribute 'extract_user_data_from_message'
+2024-08-19 15:01:37,245 - WARNING - Received SIGINT signal
+2024-08-19 15:01:37,246 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:01:37,247 - INFO - Polling stopped
+2024-08-19 15:01:53,663 - INFO - Start polling
+2024-08-19 15:01:54,278 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:01:56,493 - INFO - Received message from 964635576: /start
+2024-08-19 15:01:56,496 - INFO - Update id=792260414 is not handled. Duration 7 ms by bot id=6235250605
+2024-08-19 15:01:56,496 - ERROR - Cause exception while process update id=792260414 by bot id=6235250605
+AttributeError: module 'users.user_manager' has no attribute 'extract_user_data_from_message'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/start_command.py", line 20, in handle_start
+    user_data = user_manager.extract_user_data_from_message(message)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'users.user_manager' has no attribute 'extract_user_data_from_message'
+2024-08-19 15:01:59,185 - INFO - Received message from 964635576: /start
+2024-08-19 15:01:59,186 - INFO - Update id=792260415 is not handled. Duration 4 ms by bot id=6235250605
+2024-08-19 15:01:59,187 - ERROR - Cause exception while process update id=792260415 by bot id=6235250605
+AttributeError: module 'users.user_manager' has no attribute 'extract_user_data_from_message'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/start_command.py", line 20, in handle_start
+    user_data = user_manager.extract_user_data_from_message(message)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'users.user_manager' has no attribute 'extract_user_data_from_message'
+2024-08-19 15:02:30,784 - INFO - Start polling
+2024-08-19 15:02:30,965 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:02:33,357 - INFO - Received message from 964635576: /start
+2024-08-19 15:05:07,811 - INFO - Start polling
+2024-08-19 15:05:07,963 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:05:10,949 - INFO - Received message from 964635576: /start
+2024-08-19 15:05:20,901 - INFO - Update id=792260417 is handled. Duration 9958 ms by bot id=6235250605
+2024-08-19 15:06:57,473 - WARNING - Received SIGINT signal
+2024-08-19 15:06:57,475 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:06:57,475 - INFO - Polling stopped
+2024-08-19 15:07:10,852 - INFO - Start polling
+2024-08-19 15:07:11,049 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:07:12,603 - INFO - Received message from 964635576: /start
+2024-08-19 15:07:31,634 - INFO - Start polling
+2024-08-19 15:07:31,771 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:07:33,525 - INFO - Received message from 964635576: /start
+2024-08-19 15:07:37,460 - INFO - Update id=792260419 is handled. Duration 3970 ms by bot id=6235250605
+2024-08-19 15:30:44,239 - INFO - Start polling
+2024-08-19 15:30:45,568 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:30:52,434 - INFO - Received message from 964635576: /start
+2024-08-19 15:30:59,303 - INFO - Update id=792260420 is handled. Duration 6874 ms by bot id=6235250605
+2024-08-19 15:31:01,027 - INFO - Received message from 964635576: /start
+2024-08-19 15:31:01,291 - INFO - Update id=792260421 is handled. Duration 265 ms by bot id=6235250605
+2024-08-19 15:31:04,435 - INFO - Update id=792260422 is handled. Duration 1218 ms by bot id=6235250605
+2024-08-19 15:38:29,948 - INFO - Received message from 964635576: /start
+2024-08-19 15:38:30,514 - INFO - Update id=792260423 is handled. Duration 571 ms by bot id=6235250605
+2024-08-19 15:38:32,088 - INFO - Update id=792260424 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 15:38:46,282 - WARNING - Received SIGINT signal
+2024-08-19 15:38:46,283 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:38:46,283 - INFO - Polling stopped
+2024-08-19 15:39:49,720 - INFO - Start polling
+2024-08-19 15:39:49,863 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:39:52,294 - INFO - Received message from 964635576: /start
+2024-08-19 15:39:53,212 - INFO - Update id=792260425 is handled. Duration 920 ms by bot id=6235250605
+2024-08-19 15:39:54,731 - INFO - Update id=792260426 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 15:39:54,732 - ERROR - Cause exception while process update id=792260426 by bot id=6235250605
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+2024-08-19 15:40:04,865 - INFO - Update id=792260427 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 15:40:04,866 - ERROR - Cause exception while process update id=792260427 by bot id=6235250605
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+2024-08-19 15:40:06,404 - INFO - Update id=792260428 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 15:40:06,404 - ERROR - Cause exception while process update id=792260428 by bot id=6235250605
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+2024-08-19 15:40:07,938 - INFO - Received message from 964635576: /start
+2024-08-19 15:40:08,116 - INFO - Update id=792260429 is handled. Duration 179 ms by bot id=6235250605
+2024-08-19 15:40:09,350 - INFO - Update id=792260430 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 15:40:09,350 - ERROR - Cause exception while process update id=792260430 by bot id=6235250605
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+2024-08-19 15:40:11,012 - INFO - Update id=792260431 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 15:40:11,012 - ERROR - Cause exception while process update id=792260431 by bot id=6235250605
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+2024-08-19 15:40:11,175 - INFO - Update id=792260432 is not handled. Duration 6 ms by bot id=6235250605
+2024-08-19 15:40:11,175 - ERROR - Cause exception while process update id=792260432 by bot id=6235250605
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+2024-08-19 15:40:11,178 - INFO - Update id=792260433 is not handled. Duration 8 ms by bot id=6235250605
+2024-08-19 15:40:11,178 - ERROR - Cause exception while process update id=792260433 by bot id=6235250605
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
+2024-08-19 15:40:12,528 - WARNING - Received SIGINT signal
+2024-08-19 15:40:12,529 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:40:12,529 - INFO - Polling stopped
+2024-08-19 15:40:22,299 - INFO - Start polling
+2024-08-19 15:40:22,457 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:40:25,223 - INFO - Received message from 964635576: /start
+2024-08-19 15:40:28,274 - INFO - Update id=792260434 is handled. Duration 3055 ms by bot id=6235250605
+2024-08-19 15:41:51,403 - INFO - Start polling
+2024-08-19 15:41:51,568 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:41:56,493 - INFO - Received message from 964635576: /start
+2024-08-19 15:41:59,527 - INFO - Update id=792260436 is handled. Duration 3038 ms by bot id=6235250605
+2024-08-19 15:42:01,470 - INFO - Update id=792260437 is handled. Duration 349 ms by bot id=6235250605
+2024-08-19 15:43:21,438 - INFO - Start polling
+2024-08-19 15:43:21,827 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:43:22,817 - INFO - Received message from 964635576: /start
+2024-08-19 15:43:26,537 - INFO - Update id=792260438 is handled. Duration 3724 ms by bot id=6235250605
+2024-08-19 15:43:28,726 - INFO - Update id=792260439 is handled. Duration 444 ms by bot id=6235250605
+2024-08-19 15:43:30,418 - INFO - Received message from 964635576: /start
+2024-08-19 15:43:32,350 - INFO - Update id=792260440 is handled. Duration 1934 ms by bot id=6235250605
+2024-08-19 15:43:35,562 - INFO - Update id=792260441 is handled. Duration 317 ms by bot id=6235250605
+2024-08-19 15:57:02,818 - WARNING - Received SIGINT signal
+2024-08-19 15:57:02,824 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:57:02,825 - INFO - Polling stopped
+2024-08-19 15:57:09,538 - INFO - Start polling
+2024-08-19 15:57:09,718 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 15:57:13,435 - INFO - Received message from 964635576: /start
+2024-08-19 15:57:14,014 - INFO - Update id=792260442 is handled. Duration 582 ms by bot id=6235250605
+2024-08-19 15:57:16,935 - INFO - Update id=792260443 is handled. Duration 375 ms by bot id=6235250605
+2024-08-19 16:03:55,318 - WARNING - Received SIGINT signal
+2024-08-19 16:03:55,324 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:03:55,324 - INFO - Polling stopped
+2024-08-19 16:29:00,634 - INFO - Start polling
+2024-08-19 16:29:00,791 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:29:46,546 - INFO - Received message from 964635576: /start
+2024-08-19 16:29:47,043 - INFO - Update id=792260444 is handled. Duration 510 ms by bot id=6235250605
+2024-08-19 16:29:48,825 - INFO - Update id=792260445 is handled. Duration 442 ms by bot id=6235250605
+2024-08-19 16:29:50,602 - INFO - Update id=792260446 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:29:53,192 - INFO - Update id=792260447 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:29:56,095 - WARNING - Received SIGINT signal
+2024-08-19 16:29:56,096 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:29:56,097 - INFO - Polling stopped
+2024-08-19 16:30:05,765 - INFO - Start polling
+2024-08-19 16:30:05,990 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:30:07,559 - INFO - Received message from 964635576: /start
+2024-08-19 16:30:11,611 - INFO - Update id=792260448 is handled. Duration 4056 ms by bot id=6235250605
+2024-08-19 16:30:13,995 - INFO - Update id=792260449 is handled. Duration 395 ms by bot id=6235250605
+2024-08-19 16:30:15,621 - INFO - Update id=792260450 is not handled. Duration 5 ms by bot id=6235250605
+2024-08-19 16:30:17,019 - INFO - Update id=792260451 is not handled. Duration 4 ms by bot id=6235250605
+2024-08-19 16:30:18,385 - INFO - Update id=792260452 is not handled. Duration 6 ms by bot id=6235250605
+2024-08-19 16:30:18,386 - INFO - Update id=792260453 is not handled. Duration 7 ms by bot id=6235250605
+2024-08-19 16:30:18,746 - INFO - Update id=792260454 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-19 16:30:18,927 - INFO - Update id=792260455 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:30:19,418 - INFO - Update id=792260456 is not handled. Duration 4 ms by bot id=6235250605
+2024-08-19 16:30:19,588 - INFO - Update id=792260457 is not handled. Duration 11 ms by bot id=6235250605
+2024-08-19 16:30:19,588 - INFO - Update id=792260458 is not handled. Duration 10 ms by bot id=6235250605
+2024-08-19 16:30:24,507 - INFO - Update id=792260459 is not handled. Duration 4 ms by bot id=6235250605
+2024-08-19 16:30:53,278 - INFO - Start polling
+2024-08-19 16:30:53,416 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:30:55,756 - INFO - Received message from 964635576: /start
+2024-08-19 16:30:56,332 - INFO - Update id=792260460 is handled. Duration 578 ms by bot id=6235250605
+2024-08-19 16:30:58,056 - INFO - Update id=792260461 is handled. Duration 554 ms by bot id=6235250605
+2024-08-19 16:30:59,266 - INFO - Update id=792260462 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:31:01,134 - INFO - Update id=792260463 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:31:01,328 - INFO - Update id=792260464 is not handled. Duration 5 ms by bot id=6235250605
+2024-08-19 16:31:01,329 - INFO - Update id=792260465 is not handled. Duration 6 ms by bot id=6235250605
+2024-08-19 16:31:05,043 - INFO - Update id=792260466 is not handled. Duration 1 ms by bot id=6235250605
+2024-08-19 16:31:05,493 - INFO - Update id=792260467 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:31:07,145 - WARNING - Received SIGINT signal
+2024-08-19 16:31:07,146 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:31:07,146 - INFO - Polling stopped
+2024-08-19 16:37:51,044 - INFO - Start polling
+2024-08-19 16:37:51,200 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:37:54,435 - INFO - Received message from 964635576: /start
+2024-08-19 16:37:54,982 - INFO - Update id=792260468 is handled. Duration 549 ms by bot id=6235250605
+2024-08-19 16:38:00,422 - INFO - Update id=792260469 is handled. Duration 522 ms by bot id=6235250605
+2024-08-19 16:38:02,281 - INFO - Update id=792260470 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:04,510 - INFO - Update id=792260471 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:04,749 - INFO - Update id=792260472 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:04,939 - INFO - Update id=792260473 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-19 16:38:05,120 - INFO - Update id=792260474 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-19 16:38:05,365 - INFO - Update id=792260475 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:05,532 - INFO - Update id=792260476 is not handled. Duration 5 ms by bot id=6235250605
+2024-08-19 16:38:05,533 - INFO - Update id=792260477 is not handled. Duration 5 ms by bot id=6235250605
+2024-08-19 16:38:14,946 - INFO - Update id=792260478 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:16,776 - INFO - Update id=792260479 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:16,938 - INFO - Update id=792260480 is not handled. Duration 7 ms by bot id=6235250605
+2024-08-19 16:38:16,938 - INFO - Update id=792260481 is not handled. Duration 7 ms by bot id=6235250605
+2024-08-19 16:38:16,939 - INFO - Update id=792260482 is not handled. Duration 7 ms by bot id=6235250605
+2024-08-19 16:38:18,641 - INFO - Received message from 964635576: /start
+2024-08-19 16:38:19,157 - INFO - Update id=792260483 is handled. Duration 516 ms by bot id=6235250605
+2024-08-19 16:38:20,871 - INFO - Update id=792260484 is handled. Duration 387 ms by bot id=6235250605
+2024-08-19 16:38:22,018 - INFO - Update id=792260485 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:22,635 - INFO - Update id=792260486 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:22,800 - INFO - Update id=792260487 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-19 16:38:22,800 - INFO - Update id=792260488 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-19 16:38:25,211 - INFO - Update id=792260489 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:25,368 - INFO - Update id=792260490 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-19 16:38:25,369 - INFO - Update id=792260491 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-19 16:38:25,521 - INFO - Update id=792260492 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:25,737 - INFO - Update id=792260493 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-19 16:38:32,397 - WARNING - Received SIGINT signal
+2024-08-19 16:38:32,399 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:38:32,399 - INFO - Polling stopped
+2024-08-19 16:39:21,839 - INFO - Start polling
+2024-08-19 16:39:22,006 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:39:22,844 - INFO - Received message from 964635576: /start
+2024-08-19 16:39:26,285 - INFO - Update id=792260494 is handled. Duration 3445 ms by bot id=6235250605
+2024-08-19 16:39:28,193 - INFO - Update id=792260495 is handled. Duration 439 ms by bot id=6235250605
+2024-08-19 16:39:29,919 - INFO - Update id=792260496 is not handled. Duration 6 ms by bot id=6235250605
+2024-08-19 16:39:31,596 - INFO - Update id=792260497 is not handled. Duration 4 ms by bot id=6235250605
+2024-08-19 16:42:38,613 - INFO - Start polling
+2024-08-19 16:42:38,746 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:42:40,764 - INFO - Received message from 964635576: /start
+2024-08-19 16:42:41,359 - INFO - Update id=792260498 is handled. Duration 597 ms by bot id=6235250605
+2024-08-19 16:42:43,363 - INFO - Update id=792260499 is handled. Duration 374 ms by bot id=6235250605
+2024-08-19 16:42:45,029 - INFO - Update id=792260500 is handled. Duration 303 ms by bot id=6235250605
+2024-08-19 16:42:52,272 - WARNING - Received SIGINT signal
+2024-08-19 16:42:52,273 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:42:52,274 - INFO - Polling stopped
+2024-08-19 16:43:02,376 - INFO - Start polling
+2024-08-19 16:43:02,566 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:43:40,040 - INFO - Received message from 964635576: /start
+2024-08-19 16:43:43,782 - INFO - Update id=792260501 is handled. Duration 3754 ms by bot id=6235250605
+2024-08-19 16:43:45,778 - INFO - Update id=792260502 is handled. Duration 624 ms by bot id=6235250605
+2024-08-19 16:43:47,594 - INFO - Update id=792260503 is handled. Duration 178 ms by bot id=6235250605
+2024-08-19 16:43:52,623 - INFO - Received message from 964635576: /start
+2024-08-19 16:43:54,595 - INFO - Update id=792260504 is handled. Duration 1974 ms by bot id=6235250605
+2024-08-19 16:43:56,702 - INFO - Update id=792260505 is handled. Duration 574 ms by bot id=6235250605
+2024-08-19 16:43:58,999 - INFO - Update id=792260506 is handled. Duration 229 ms by bot id=6235250605
+2024-08-19 16:44:24,617 - WARNING - Received SIGINT signal
+2024-08-19 16:44:24,621 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:44:24,623 - INFO - Polling stopped
+2024-08-19 16:44:41,240 - INFO - Start polling
+2024-08-19 16:44:41,415 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:44:42,775 - INFO - Received message from 964635576: /start
+2024-08-19 16:44:51,359 - INFO - Update id=792260507 is handled. Duration 8589 ms by bot id=6235250605
+2024-08-19 16:44:53,215 - INFO - Update id=792260508 is handled. Duration 529 ms by bot id=6235250605
+2024-08-19 16:44:54,997 - INFO - Update id=792260509 is handled. Duration 8 ms by bot id=6235250605
+2024-08-19 16:44:56,910 - INFO - Update id=792260510 is handled. Duration 8 ms by bot id=6235250605
+2024-08-19 16:44:57,061 - INFO - Update id=792260511 is handled. Duration 7 ms by bot id=6235250605
+2024-08-19 16:44:57,219 - INFO - Update id=792260512 is handled. Duration 9 ms by bot id=6235250605
+2024-08-19 16:44:57,759 - INFO - Update id=792260513 is handled. Duration 8 ms by bot id=6235250605
+2024-08-19 16:44:57,929 - INFO - Update id=792260514 is handled. Duration 17 ms by bot id=6235250605
+2024-08-19 16:44:57,930 - INFO - Update id=792260515 is handled. Duration 18 ms by bot id=6235250605
+2024-08-19 16:44:58,142 - INFO - Update id=792260516 is handled. Duration 7 ms by bot id=6235250605
+2024-08-19 16:44:58,329 - INFO - Update id=792260517 is handled. Duration 7 ms by bot id=6235250605
+2024-08-19 16:47:22,802 - INFO - Start polling
+2024-08-19 16:47:22,981 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:47:25,284 - INFO - Received message from 964635576: /start
+2024-08-19 16:47:29,395 - INFO - Update id=792260519 is handled. Duration 4115 ms by bot id=6235250605
+2024-08-19 16:47:31,309 - INFO - Update id=792260520 is handled. Duration 439 ms by bot id=6235250605
+2024-08-19 16:47:33,048 - INFO - Update id=792260521 is handled. Duration 267 ms by bot id=6235250605
+2024-08-19 16:47:44,256 - INFO - Received message from 964635576: /start
+2024-08-19 16:47:46,062 - INFO - Update id=792260522 is handled. Duration 1808 ms by bot id=6235250605
+2024-08-19 16:47:57,523 - INFO - Update id=792260523 is handled. Duration 367 ms by bot id=6235250605
+2024-08-19 16:47:59,210 - INFO - Update id=792260524 is handled. Duration 209 ms by bot id=6235250605
+2024-08-19 16:48:23,354 - INFO - Update id=792260525 is handled. Duration 653 ms by bot id=6235250605
+2024-08-19 16:48:25,116 - INFO - Received message from 964635576: /start
+2024-08-19 16:48:28,522 - INFO - Update id=792260526 is handled. Duration 3409 ms by bot id=6235250605
+2024-08-19 16:48:32,749 - INFO - Update id=792260527 is handled. Duration 262 ms by bot id=6235250605
+2024-08-19 16:49:46,365 - INFO - Start polling
+2024-08-19 16:49:46,532 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:49:48,301 - INFO - Received message from 964635576: /start
+2024-08-19 16:49:48,790 - INFO - Update id=792260528 is handled. Duration 491 ms by bot id=6235250605
+2024-08-19 16:49:50,601 - INFO - Update id=792260529 is handled. Duration 400 ms by bot id=6235250605
+2024-08-19 16:49:52,704 - INFO - Update id=792260530 is handled. Duration 354 ms by bot id=6235250605
+2024-08-19 16:49:54,559 - INFO - Received message from 964635576: /start
+2024-08-19 16:49:54,910 - INFO - Update id=792260531 is handled. Duration 352 ms by bot id=6235250605
+2024-08-19 16:49:56,678 - INFO - Update id=792260532 is handled. Duration 495 ms by bot id=6235250605
+2024-08-19 16:49:58,381 - INFO - Update id=792260533 is handled. Duration 604 ms by bot id=6235250605
+2024-08-19 16:50:00,404 - INFO - Received message from 964635576: /start
+2024-08-19 16:50:00,642 - INFO - Update id=792260534 is handled. Duration 240 ms by bot id=6235250605
+2024-08-19 16:50:02,299 - INFO - Update id=792260535 is handled. Duration 385 ms by bot id=6235250605
+2024-08-19 16:50:05,533 - INFO - Update id=792260536 is handled. Duration 584 ms by bot id=6235250605
+2024-08-19 16:50:08,187 - INFO - Update id=792260537 is handled. Duration 474 ms by bot id=6235250605
+2024-08-19 16:51:14,856 - INFO - Received message from 964635576: /start
+2024-08-19 16:51:15,343 - INFO - Update id=792260538 is handled. Duration 490 ms by bot id=6235250605
+2024-08-19 16:51:16,814 - INFO - Update id=792260539 is handled. Duration 361 ms by bot id=6235250605
+2024-08-19 16:51:19,670 - INFO - Update id=792260540 is handled. Duration 379 ms by bot id=6235250605
+2024-08-19 16:51:21,433 - INFO - Received message from 964635576: /start
+2024-08-19 16:51:21,632 - INFO - Update id=792260541 is handled. Duration 199 ms by bot id=6235250605
+2024-08-19 16:51:23,372 - INFO - Update id=792260542 is handled. Duration 538 ms by bot id=6235250605
+2024-08-19 16:51:26,363 - INFO - Update id=792260543 is handled. Duration 565 ms by bot id=6235250605
+2024-08-19 16:51:27,436 - INFO - Received message from 964635576: /start
+2024-08-19 16:51:27,632 - INFO - Update id=792260544 is handled. Duration 197 ms by bot id=6235250605
+2024-08-19 16:51:29,029 - INFO - Update id=792260545 is handled. Duration 415 ms by bot id=6235250605
+2024-08-19 16:51:30,329 - INFO - Update id=792260546 is handled. Duration 342 ms by bot id=6235250605
+2024-08-19 16:51:32,475 - INFO - Update id=792260547 is handled. Duration 592 ms by bot id=6235250605
+2024-08-19 16:51:33,439 - INFO - Received message from 964635576: /start
+2024-08-19 16:51:33,621 - INFO - Update id=792260548 is handled. Duration 183 ms by bot id=6235250605
+2024-08-19 16:51:35,031 - INFO - Update id=792260549 is handled. Duration 367 ms by bot id=6235250605
+2024-08-19 16:51:35,938 - INFO - Received message from 1995469171: /start
+2024-08-19 16:51:36,169 - INFO - Update id=792260550 is handled. Duration 233 ms by bot id=6235250605
+2024-08-19 16:51:36,786 - INFO - Update id=792260551 is handled. Duration 522 ms by bot id=6235250605
+2024-08-19 16:51:53,126 - INFO - Update id=792260552 is handled. Duration 657 ms by bot id=6235250605
+2024-08-19 16:52:02,137 - INFO - Update id=792260553 is handled. Duration 369 ms by bot id=6235250605
+2024-08-19 16:52:02,214 - INFO - Received message from 964635576: /start
+2024-08-19 16:52:02,565 - INFO - Update id=792260554 is handled. Duration 354 ms by bot id=6235250605
+2024-08-19 16:52:04,306 - INFO - Update id=792260555 is handled. Duration 386 ms by bot id=6235250605
+2024-08-19 16:52:04,791 - INFO - Update id=792260556 is handled. Duration 353 ms by bot id=6235250605
+2024-08-19 16:52:48,337 - WARNING - Received SIGINT signal
+2024-08-19 16:52:48,343 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:52:48,344 - INFO - Polling stopped
+2024-08-19 16:52:51,752 - INFO - Start polling
+2024-08-19 16:52:51,883 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 16:52:53,052 - INFO - Received message from 1995469171: /start
+2024-08-19 16:52:53,196 - INFO - Received message from 964635576: /start
+2024-08-19 16:52:53,619 - INFO - Update id=792260566 is handled. Duration 569 ms by bot id=6235250605
+2024-08-19 16:52:53,790 - INFO - Update id=792260567 is handled. Duration 598 ms by bot id=6235250605
+2024-08-19 16:52:55,580 - INFO - Update id=792260568 is handled. Duration 486 ms by bot id=6235250605
+2024-08-19 16:52:56,756 - INFO - Update id=792260569 is handled. Duration 663 ms by bot id=6235250605
+2024-08-19 16:53:03,069 - INFO - не удалось удалить сообщение Telegram server says - Bad Request: message to delete not found
+2024-08-19 16:53:03,298 - INFO - Update id=792260570 is handled. Duration 540 ms by bot id=6235250605
+2024-08-19 16:53:03,377 - INFO - Update id=792260571 is handled. Duration 472 ms by bot id=6235250605
+2024-08-19 16:53:17,909 - INFO - Received message from 964635576: /start
+2024-08-19 16:53:18,190 - INFO - Update id=792260572 is handled. Duration 283 ms by bot id=6235250605
+2024-08-19 16:53:20,121 - INFO - Update id=792260573 is handled. Duration 385 ms by bot id=6235250605
+2024-08-19 16:53:22,651 - INFO - Update id=792260574 is handled. Duration 397 ms by bot id=6235250605
+2024-08-19 16:53:31,518 - INFO - Update id=792260575 is handled. Duration 445 ms by bot id=6235250605
+2024-08-19 16:53:42,051 - INFO - Received message from 1995469171: /start
+2024-08-19 16:53:42,293 - INFO - Update id=792260576 is handled. Duration 243 ms by bot id=6235250605
+2024-08-19 16:53:47,372 - INFO - Update id=792260577 is handled. Duration 579 ms by bot id=6235250605
+2024-08-19 16:53:53,693 - INFO - Update id=792260578 is handled. Duration 391 ms by bot id=6235250605
+2024-08-19 16:53:55,561 - INFO - Received message from 1995469171: /start
+2024-08-19 16:53:55,783 - INFO - Update id=792260579 is handled. Duration 223 ms by bot id=6235250605
+2024-08-19 16:53:59,541 - INFO - Update id=792260580 is handled. Duration 420 ms by bot id=6235250605
+2024-08-19 16:54:02,540 - INFO - Received message from 1995469171: /start
+2024-08-19 16:54:02,785 - INFO - Update id=792260581 is handled. Duration 245 ms by bot id=6235250605
+2024-08-19 16:54:08,047 - INFO - Update id=792260582 is handled. Duration 763 ms by bot id=6235250605
+2024-08-19 16:54:16,659 - INFO - Received message from 964635576: /start
+2024-08-19 16:54:16,870 - INFO - Update id=792260583 is handled. Duration 212 ms by bot id=6235250605
+2024-08-19 16:54:18,748 - INFO - Update id=792260584 is handled. Duration 414 ms by bot id=6235250605
+2024-08-19 16:54:21,265 - INFO - Update id=792260585 is handled. Duration 518 ms by bot id=6235250605
+2024-08-19 16:54:23,260 - INFO - Update id=792260586 is handled. Duration 483 ms by bot id=6235250605
+2024-08-19 16:56:48,927 - INFO - не удалось удалить сообщение Telegram server says - Bad Request: message to delete not found
+2024-08-19 16:56:48,954 - INFO - Update id=792260587 is handled. Duration 674 ms by bot id=6235250605
+2024-08-19 16:56:49,111 - INFO - Update id=792260588 is handled. Duration 643 ms by bot id=6235250605
+2024-08-19 16:56:53,518 - INFO - не удалось удалить сообщение Telegram server says - Bad Request: message to delete not found
+2024-08-19 16:56:53,693 - INFO - Update id=792260589 is handled. Duration 459 ms by bot id=6235250605
+2024-08-19 16:56:53,797 - INFO - Update id=792260590 is handled. Duration 431 ms by bot id=6235250605
+2024-08-19 16:56:56,486 - INFO - Update id=792260591 is handled. Duration 612 ms by bot id=6235250605
+2024-08-19 16:58:54,942 - INFO - Received message from 1318927560: /start
+2024-08-19 16:58:55,483 - INFO - Update id=792260592 is handled. Duration 544 ms by bot id=6235250605
+2024-08-19 16:59:01,403 - INFO - Update id=792260593 is handled. Duration 426 ms by bot id=6235250605
+2024-08-19 16:59:07,451 - INFO - Update id=792260594 is handled. Duration 1256 ms by bot id=6235250605
+2024-08-19 17:00:04,248 - INFO - Received message from 1318927560: /start
+2024-08-19 17:00:05,913 - INFO - Update id=792260595 is handled. Duration 1667 ms by bot id=6235250605
+2024-08-19 17:00:07,817 - INFO - Update id=792260596 is handled. Duration 756 ms by bot id=6235250605
+2024-08-19 17:00:10,064 - INFO - Received message from 1318927560: /start
+2024-08-19 17:00:10,437 - INFO - Update id=792260597 is handled. Duration 374 ms by bot id=6235250605
+2024-08-19 17:00:14,731 - INFO - Update id=792260598 is handled. Duration 522 ms by bot id=6235250605
+2024-08-19 17:00:58,537 - INFO - Update id=792260599 is handled. Duration 663 ms by bot id=6235250605
+2024-08-19 17:01:57,421 - INFO - Update id=792260600 is handled. Duration 941 ms by bot id=6235250605
+2024-08-19 17:02:04,084 - INFO - Received message from 1995469171: /start
+2024-08-19 17:02:04,560 - INFO - Update id=792260601 is handled. Duration 478 ms by bot id=6235250605
+2024-08-19 17:02:09,819 - INFO - Update id=792260602 is handled. Duration 2252 ms by bot id=6235250605
+2024-08-19 17:02:13,977 - INFO - Update id=792260603 is handled. Duration 1243 ms by bot id=6235250605
+2024-08-19 17:02:17,737 - INFO - Update id=792260604 is handled. Duration 390 ms by bot id=6235250605
+2024-08-19 17:02:30,543 - INFO - Received message from 1995469171: /start
+2024-08-19 17:02:30,716 - INFO - Update id=792260605 is handled. Duration 173 ms by bot id=6235250605
+2024-08-19 17:02:36,093 - INFO - Update id=792260606 is handled. Duration 379 ms by bot id=6235250605
+2024-08-19 17:02:36,560 - INFO - не удалось удалить сообщение Telegram server says - Bad Request: message to delete not found
+2024-08-19 17:02:36,785 - INFO - Update id=792260607 is handled. Duration 916 ms by bot id=6235250605
+2024-08-19 17:02:41,220 - INFO - Update id=792260608 is handled. Duration 682 ms by bot id=6235250605
+2024-08-19 17:02:47,157 - INFO - Update id=792260609 is handled. Duration 1193 ms by bot id=6235250605
+2024-08-19 17:13:12,805 - INFO - Update id=792260610 is handled. Duration 744 ms by bot id=6235250605
+2024-08-19 17:33:04,340 - WARNING - Received SIGINT signal
+2024-08-19 17:33:04,346 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-19 17:33:04,347 - INFO - Polling stopped
