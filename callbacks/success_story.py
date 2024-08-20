@@ -1,23 +1,22 @@
 import logging
-from aiogram import Bot, types, F, Router
+from aiogram import Bot, F, Router
 from aiogram.types import CallbackQuery
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from config import WHAT_CAN_GET_TEXT
+from config import CONTACTS_TEXT
 from kb.feedback_1_menu import feedback_markup
 
 
 router = Router()
 
-@router.callback_query(F.data == 'what_can_get')
-async def handle_waiting_for_choise(query: types.CallbackQuery, session: AsyncSession, bot: Bot):
+@router.callback_query(F.data == 'success_story')
+async def handle_waiting_for_choise(query: CallbackQuery, session: AsyncSession, bot: Bot):
 
     message_id = query.message.message_id
     if message_id:
         try:
             await bot.delete_message(chat_id=query.message.chat.id, message_id=message_id)
-            await query.message.answer(text=WHAT_CAN_GET_TEXT, parse_mode='HTML', reply_markup=feedback_markup)
+            await query.message.answer(text=CONTACTS_TEXT, parse_mode='HTML')
         except Exception as e:
             logging.info(f'не удалось удалить сообщение {e}')
-            await query.message.answer(text=WHAT_CAN_GET_TEXT, parse_mode='HTML', reply_markup=feedback_markup)
-    
+            await query.message.answer(text=CONTACTS_TEXT, parse_mode='HTML')

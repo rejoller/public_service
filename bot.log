@@ -988,3 +988,194 @@ TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
 2024-08-19 17:33:04,340 - WARNING - Received SIGINT signal
 2024-08-19 17:33:04,346 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
 2024-08-19 17:33:04,347 - INFO - Polling stopped
+2024-08-20 10:07:55,104 - INFO - Start polling
+2024-08-20 10:07:55,246 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 10:08:08,754 - INFO - Received message from 964635576: /start
+2024-08-20 10:08:09,249 - INFO - Update id=792260617 is handled. Duration 511 ms by bot id=6235250605
+2024-08-20 10:08:13,078 - INFO - Update id=792260618 is handled. Duration 350 ms by bot id=6235250605
+2024-08-20 10:08:15,428 - INFO - Update id=792260619 is handled. Duration 311 ms by bot id=6235250605
+2024-08-20 10:08:28,804 - INFO - Received message from 964635576: /start
+2024-08-20 10:08:29,001 - INFO - Update id=792260620 is handled. Duration 198 ms by bot id=6235250605
+2024-08-20 10:08:30,661 - INFO - Update id=792260621 is handled. Duration 308 ms by bot id=6235250605
+2024-08-20 10:08:33,651 - INFO - Update id=792260622 is handled. Duration 341 ms by bot id=6235250605
+2024-08-20 10:08:35,480 - INFO - Update id=792260623 is handled. Duration 328 ms by bot id=6235250605
+2024-08-20 10:09:04,031 - INFO - Received message from 964635576: /start
+2024-08-20 10:09:04,524 - INFO - Update id=792260624 is handled. Duration 494 ms by bot id=6235250605
+2024-08-20 10:09:06,153 - INFO - Update id=792260625 is handled. Duration 384 ms by bot id=6235250605
+2024-08-20 10:09:07,904 - INFO - Update id=792260626 is handled. Duration 392 ms by bot id=6235250605
+2024-08-20 10:11:01,818 - INFO - Received message from 964635576: /start
+2024-08-20 10:11:02,292 - INFO - Update id=792260627 is handled. Duration 479 ms by bot id=6235250605
+2024-08-20 10:11:05,208 - INFO - Update id=792260628 is handled. Duration 449 ms by bot id=6235250605
+2024-08-20 10:11:09,367 - INFO - Received message from 964635576: /start
+2024-08-20 10:11:09,558 - INFO - Update id=792260629 is handled. Duration 192 ms by bot id=6235250605
+2024-08-20 10:11:11,532 - INFO - Update id=792260630 is handled. Duration 296 ms by bot id=6235250605
+2024-08-20 10:12:04,910 - WARNING - Received SIGINT signal
+2024-08-20 10:12:04,912 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 10:12:04,913 - INFO - Polling stopped
+2024-08-20 10:12:08,729 - INFO - Start polling
+2024-08-20 10:12:08,885 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 10:12:14,351 - INFO - Received message from 964635576: /start
+2024-08-20 10:12:14,850 - INFO - Update id=792260631 is handled. Duration 502 ms by bot id=6235250605
+2024-08-20 10:12:16,571 - INFO - Update id=792260632 is handled. Duration 427 ms by bot id=6235250605
+2024-08-20 10:12:19,323 - INFO - Update id=792260633 is handled. Duration 325 ms by bot id=6235250605
+2024-08-20 10:12:21,866 - INFO - Received message from 964635576: /start
+2024-08-20 10:12:22,139 - INFO - Update id=792260634 is handled. Duration 274 ms by bot id=6235250605
+2024-08-20 10:12:24,520 - INFO - Update id=792260635 is handled. Duration 402 ms by bot id=6235250605
+2024-08-20 10:12:35,692 - INFO - Update id=792260636 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-20 10:12:37,433 - INFO - Update id=792260637 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-20 10:12:37,645 - INFO - Update id=792260638 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-20 10:14:01,430 - WARNING - Received SIGINT signal
+2024-08-20 10:14:01,433 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 10:14:01,433 - INFO - Polling stopped
+2024-08-20 10:14:06,426 - INFO - Start polling
+2024-08-20 10:14:06,925 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 10:14:07,245 - INFO - Received message from 964635576: /start
+2024-08-20 10:14:07,875 - INFO - Update id=792260639 is handled. Duration 632 ms by bot id=6235250605
+2024-08-20 10:14:10,243 - INFO - Update id=792260640 is handled. Duration 345 ms by bot id=6235250605
+2024-08-20 10:14:13,408 - INFO - Update id=792260641 is handled. Duration 642 ms by bot id=6235250605
+2024-08-20 10:14:15,222 - INFO - Received message from 964635576: /start
+2024-08-20 10:14:15,417 - INFO - Update id=792260642 is handled. Duration 196 ms by bot id=6235250605
+2024-08-20 10:14:17,505 - INFO - Update id=792260643 is handled. Duration 331 ms by bot id=6235250605
+2024-08-20 10:14:21,302 - INFO - Update id=792260644 is handled. Duration 346 ms by bot id=6235250605
+2024-08-20 10:21:05,580 - WARNING - Received SIGINT signal
+2024-08-20 10:21:05,584 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 10:21:05,584 - INFO - Polling stopped
+2024-08-20 10:21:08,899 - INFO - Start polling
+2024-08-20 10:21:09,054 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 10:21:10,790 - INFO - Received message from 964635576: /start
+2024-08-20 10:21:11,284 - INFO - Update id=792260645 is handled. Duration 496 ms by bot id=6235250605
+2024-08-20 10:21:12,772 - INFO - Update id=792260646 is handled. Duration 371 ms by bot id=6235250605
+2024-08-20 10:21:14,773 - INFO - Update id=792260647 is handled. Duration 323 ms by bot id=6235250605
+2024-08-20 10:21:15,986 - INFO - Received message from 964635576: /start
+2024-08-20 10:21:16,175 - INFO - Update id=792260648 is handled. Duration 191 ms by bot id=6235250605
+2024-08-20 10:21:17,967 - INFO - Update id=792260649 is handled. Duration 325 ms by bot id=6235250605
+2024-08-20 10:21:19,758 - INFO - Update id=792260650 is handled. Duration 299 ms by bot id=6235250605
+2024-08-20 10:21:21,718 - INFO - Received message from 964635576: /start
+2024-08-20 10:21:21,896 - INFO - Update id=792260651 is handled. Duration 179 ms by bot id=6235250605
+2024-08-20 10:43:39,713 - INFO - Received message from 964635576: /start
+2024-08-20 10:43:40,265 - INFO - Update id=792260652 is handled. Duration 561 ms by bot id=6235250605
+2024-08-20 10:48:44,460 - INFO - Update id=792260653 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-20 10:49:23,520 - INFO - Update id=792260654 is not handled. Duration 2 ms by bot id=6235250605
+2024-08-20 10:49:38,397 - INFO - Update id=792260655 is not handled. Duration 1 ms by bot id=6235250605
+2024-08-20 12:32:55,787 - INFO - Update id=792260656 is not handled. Duration 25 ms by bot id=6235250605
+2024-08-20 13:32:13,642 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-20 13:32:13,645 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 13:32:14,661 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 13:32:14,661 - WARNING - Sleep for 1.396112 seconds and try again... (tryings = 1, bot id = 6235250605)
+2024-08-20 13:32:16,063 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 13:32:16,063 - WARNING - Sleep for 1.599971 seconds and try again... (tryings = 2, bot id = 6235250605)
+2024-08-20 13:48:10,398 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 13:48:10,398 - WARNING - Sleep for 1.992966 seconds and try again... (tryings = 3, bot id = 6235250605)
+2024-08-20 13:48:12,396 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 13:48:12,397 - WARNING - Sleep for 2.428571 seconds and try again... (tryings = 4, bot id = 6235250605)
+2024-08-20 13:48:14,831 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 13:48:14,832 - WARNING - Sleep for 3.287601 seconds and try again... (tryings = 5, bot id = 6235250605)
+2024-08-20 13:59:01,124 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 13:59:01,125 - WARNING - Sleep for 4.270211 seconds and try again... (tryings = 6, bot id = 6235250605)
+2024-08-20 13:59:15,942 - INFO - Connection established (tryings = 7, bot id = 6235250605)
+2024-08-20 14:09:38,307 - WARNING - Received SIGINT signal
+2024-08-20 14:09:38,321 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 14:09:38,321 - INFO - Polling stopped
+2024-08-20 14:09:43,692 - INFO - Start polling
+2024-08-20 14:09:43,831 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 14:12:32,872 - INFO - Received message from 964635576: /start
+2024-08-20 14:12:33,695 - INFO - Update id=792260657 is handled. Duration 831 ms by bot id=6235250605
+2024-08-20 14:12:39,014 - INFO - Update id=792260658 is handled. Duration 358 ms by bot id=6235250605
+2024-08-20 14:12:43,452 - INFO - Update id=792260659 is handled. Duration 420 ms by bot id=6235250605
+2024-08-20 14:12:56,433 - INFO - Received message from 964635576: /start
+2024-08-20 14:12:56,654 - INFO - Update id=792260660 is handled. Duration 222 ms by bot id=6235250605
+2024-08-20 14:12:58,449 - INFO - Update id=792260661 is handled. Duration 442 ms by bot id=6235250605
+2024-08-20 14:13:08,416 - INFO - Received message from 964635576: /start
+2024-08-20 14:13:08,724 - INFO - Update id=792260662 is handled. Duration 491 ms by bot id=6235250605
+2024-08-20 14:13:08,861 - INFO - не удалось удалить сообщение Telegram server says - Bad Request: message to delete not found
+2024-08-20 14:13:08,951 - INFO - не удалось удалить сообщение Telegram server says - Bad Request: message to delete not found
+2024-08-20 14:13:08,964 - INFO - Update id=792260665 is handled. Duration 553 ms by bot id=6235250605
+2024-08-20 14:13:09,228 - INFO - Update id=792260663 is handled. Duration 818 ms by bot id=6235250605
+2024-08-20 14:13:09,264 - INFO - Update id=792260664 is handled. Duration 853 ms by bot id=6235250605
+2024-08-20 14:13:12,145 - INFO - Received message from 964635576: /start
+2024-08-20 14:13:12,313 - INFO - Update id=792260666 is handled. Duration 169 ms by bot id=6235250605
+2024-08-20 14:13:17,402 - INFO - Update id=792260667 is handled. Duration 379 ms by bot id=6235250605
+2024-08-20 14:13:21,110 - WARNING - Received SIGINT signal
+2024-08-20 14:13:21,113 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 14:13:21,113 - INFO - Polling stopped
+2024-08-20 14:13:28,310 - INFO - Start polling
+2024-08-20 14:13:28,527 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 14:13:28,977 - INFO - Received message from 964635576: /start
+2024-08-20 14:13:29,472 - INFO - Update id=792260668 is handled. Duration 497 ms by bot id=6235250605
+2024-08-20 14:13:41,427 - INFO - Update id=792260669 is handled. Duration 333 ms by bot id=6235250605
+2024-08-20 14:13:43,425 - INFO - Update id=792260670 is handled. Duration 568 ms by bot id=6235250605
+2024-08-20 14:13:47,029 - INFO - Received message from 964635576: /start
+2024-08-20 14:13:47,346 - INFO - Update id=792260671 is handled. Duration 320 ms by bot id=6235250605
+2024-08-20 14:13:55,054 - INFO - Update id=792260672 is handled. Duration 629 ms by bot id=6235250605
+2024-08-20 14:14:04,319 - INFO - Received message from 964635576: /start
+2024-08-20 14:14:04,576 - INFO - Update id=792260673 is handled. Duration 258 ms by bot id=6235250605
+2024-08-20 14:14:13,958 - INFO - Update id=792260674 is handled. Duration 870 ms by bot id=6235250605
+2024-08-20 14:14:19,141 - INFO - Received message from 964635576: /start
+2024-08-20 14:14:19,390 - INFO - Update id=792260675 is handled. Duration 252 ms by bot id=6235250605
+2024-08-20 14:14:21,341 - INFO - Update id=792260676 is handled. Duration 419 ms by bot id=6235250605
+2024-08-20 14:14:23,132 - INFO - Update id=792260677 is handled. Duration 545 ms by bot id=6235250605
+2024-08-20 14:14:25,733 - INFO - Received message from 964635576: /start
+2024-08-20 14:14:25,968 - INFO - Update id=792260678 is handled. Duration 235 ms by bot id=6235250605
+2024-08-20 14:14:28,197 - INFO - Update id=792260679 is handled. Duration 652 ms by bot id=6235250605
+2024-08-20 14:14:29,938 - INFO - Update id=792260680 is handled. Duration 333 ms by bot id=6235250605
+2024-08-20 14:14:31,979 - INFO - Received message from 964635576: /start
+2024-08-20 14:14:32,163 - INFO - Update id=792260681 is handled. Duration 184 ms by bot id=6235250605
+2024-08-20 14:14:34,082 - INFO - Update id=792260682 is handled. Duration 363 ms by bot id=6235250605
+2024-08-20 14:14:35,640 - INFO - Update id=792260683 is handled. Duration 333 ms by bot id=6235250605
+2024-08-20 14:14:37,895 - INFO - Received message from 964635576: /start
+2024-08-20 14:14:38,062 - INFO - Update id=792260684 is handled. Duration 167 ms by bot id=6235250605
+2024-08-20 14:14:39,957 - INFO - Update id=792260685 is handled. Duration 435 ms by bot id=6235250605
+2024-08-20 14:14:41,817 - INFO - Update id=792260686 is handled. Duration 380 ms by bot id=6235250605
+2024-08-20 14:14:42,980 - INFO - Received message from 964635576: /start
+2024-08-20 14:14:43,219 - INFO - Update id=792260687 is handled. Duration 240 ms by bot id=6235250605
+2024-08-20 14:14:45,122 - INFO - Update id=792260688 is handled. Duration 440 ms by bot id=6235250605
+2024-08-20 14:14:48,115 - INFO - Update id=792260689 is handled. Duration 434 ms by bot id=6235250605
+2024-08-20 14:14:51,415 - INFO - Received message from 964635576: /start
+2024-08-20 14:14:51,584 - INFO - Update id=792260690 is handled. Duration 170 ms by bot id=6235250605
+2024-08-20 14:14:57,877 - INFO - Update id=792260691 is handled. Duration 618 ms by bot id=6235250605
+2024-08-20 14:15:00,770 - INFO - Update id=792260692 is handled. Duration 326 ms by bot id=6235250605
+2024-08-20 14:15:03,836 - INFO - Update id=792260693 is handled. Duration 504 ms by bot id=6235250605
+2024-08-20 14:15:27,357 - INFO - Received message from 964635576: /start
+2024-08-20 14:15:27,843 - INFO - Update id=792260694 is handled. Duration 487 ms by bot id=6235250605
+2024-08-20 14:15:31,644 - INFO - Update id=792260695 is handled. Duration 337 ms by bot id=6235250605
+2024-08-20 14:15:34,080 - INFO - Update id=792260696 is handled. Duration 323 ms by bot id=6235250605
+2024-08-20 14:16:15,214 - INFO - Received message from 964635576: /start
+2024-08-20 14:16:15,807 - INFO - Update id=792260697 is handled. Duration 594 ms by bot id=6235250605
+2024-08-20 14:16:29,630 - INFO - Update id=792260698 is handled. Duration 345 ms by bot id=6235250605
+2024-08-20 14:16:34,419 - INFO - Update id=792260699 is handled. Duration 349 ms by bot id=6235250605
+2024-08-20 14:16:37,255 - INFO - Received message from 964635576: /start
+2024-08-20 14:16:37,533 - INFO - Update id=792260700 is handled. Duration 279 ms by bot id=6235250605
+2024-08-20 14:17:42,541 - INFO - Received message from 964635576: /start
+2024-08-20 14:17:43,031 - INFO - Update id=792260701 is handled. Duration 492 ms by bot id=6235250605
+2024-08-20 14:17:44,919 - INFO - Update id=792260702 is handled. Duration 378 ms by bot id=6235250605
+2024-08-20 14:17:49,474 - INFO - Update id=792260703 is handled. Duration 390 ms by bot id=6235250605
+2024-08-20 14:17:52,968 - INFO - Update id=792260704 is handled. Duration 347 ms by bot id=6235250605
+2024-08-20 14:20:33,389 - WARNING - Received SIGINT signal
+2024-08-20 14:20:33,393 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 14:20:33,393 - INFO - Polling stopped
+2024-08-20 14:20:39,784 - INFO - Start polling
+2024-08-20 14:20:39,931 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 14:20:42,991 - INFO - Received message from 964635576: /start
+2024-08-20 14:20:43,567 - INFO - Update id=792260705 is handled. Duration 578 ms by bot id=6235250605
+2024-08-20 14:20:49,534 - INFO - Update id=792260706 is handled. Duration 502 ms by bot id=6235250605
+2024-08-20 14:20:53,827 - INFO - Update id=792260707 is handled. Duration 523 ms by bot id=6235250605
+2024-08-20 14:20:56,845 - INFO - Update id=792260708 is handled. Duration 391 ms by bot id=6235250605
+2024-08-20 14:20:59,525 - INFO - Update id=792260709 is handled. Duration 356 ms by bot id=6235250605
+2024-08-20 14:31:51,199 - INFO - Received message from 1404990860: /start
+2024-08-20 14:31:51,355 - INFO - Received message from 1404990860: /start
+2024-08-20 14:31:51,676 - INFO - Update id=792260710 is handled. Duration 481 ms by bot id=6235250605
+2024-08-20 14:31:51,816 - INFO - Update id=792260711 is handled. Duration 466 ms by bot id=6235250605
+2024-08-20 14:33:52,743 - INFO - Update id=792260712 is handled. Duration 731 ms by bot id=6235250605
+2024-08-20 14:34:11,106 - INFO - Update id=792260713 is handled. Duration 4835 ms by bot id=6235250605
+2024-08-20 14:34:11,468 - INFO - Update id=792260714 is handled. Duration 363 ms by bot id=6235250605
+2024-08-20 14:34:14,856 - INFO - Update id=792260715 is handled. Duration 503 ms by bot id=6235250605
+2024-08-20 15:08:27,234 - INFO - Received message from 964635576: /start
+2024-08-20 15:08:27,718 - INFO - Update id=792260716 is handled. Duration 502 ms by bot id=6235250605
+2024-08-20 15:08:30,014 - INFO - Update id=792260717 is handled. Duration 532 ms by bot id=6235250605
+2024-08-20 15:08:32,225 - INFO - Update id=792260718 is handled. Duration 345 ms by bot id=6235250605
+2024-08-20 15:08:35,118 - INFO - Received message from 964635576: /start
+2024-08-20 15:08:35,358 - INFO - Update id=792260719 is handled. Duration 240 ms by bot id=6235250605
+2024-08-20 15:08:37,570 - INFO - Update id=792260720 is handled. Duration 517 ms by bot id=6235250605
+2024-08-20 15:14:48,459 - WARNING - Received SIGINT signal
+2024-08-20 15:14:48,462 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 15:14:48,462 - INFO - Polling stopped

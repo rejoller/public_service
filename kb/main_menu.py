@@ -15,6 +15,6 @@ markup = InlineKeyboardMarkup(inline_keyboard=[
             [InlineKeyboardButton(
                 text="Календарный график конкурса", callback_data="calendar")],
             [InlineKeyboardButton(
-                text="Что получают резервисты", callback_data="what_can_get")]
+                text="Итоги конкурса", callback_data="results")]
             ]
         )

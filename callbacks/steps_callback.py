@@ -1,5 +1,5 @@
 import logging
-from aiogram import Bot, types, F, Router
+from aiogram import Bot, F, Router
 from aiogram.types import CallbackQuery
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -10,7 +10,7 @@ from kb.feedback_1_menu import feedback_markup
 router = Router()
 
 @router.callback_query(F.data == 'steps')
-async def handle_waiting_for_choise(query: types.CallbackQuery, session: AsyncSession, bot: Bot):
+async def handle_waiting_for_choise(query: CallbackQuery, session: AsyncSession, bot: Bot):
 
     message_id = query.message.message_id
     if message_id:
