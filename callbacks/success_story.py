@@ -3,14 +3,14 @@ from aiogram import Bot, F, Router
 from aiogram.types import CallbackQuery
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from config import CONTACTS_TEXT
+from utils.text_messages  import CONTACTS_TEXT
 from kb.feedback_1_menu import feedback_markup
 
 
 router = Router()
 
 @router.callback_query(F.data == 'success_story')
-async def handle_waiting_for_choise(query: CallbackQuery, session: AsyncSession, bot: Bot):
+async def handle_success_story(query: CallbackQuery, session: AsyncSession, bot: Bot):
 
     message_id = query.message.message_id
     if message_id:

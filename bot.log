@@ -1179,3 +1179,1428 @@ TypeError: handle_waiting_for_choise() got multiple values for argument 'bot'
 2024-08-20 15:14:48,459 - WARNING - Received SIGINT signal
 2024-08-20 15:14:48,462 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
 2024-08-20 15:14:48,462 - INFO - Polling stopped
+2024-08-20 15:15:34,938 - INFO - Start polling
+2024-08-20 15:15:35,075 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 15:28:53,202 - INFO - Received message from 1318927560: /start
+2024-08-20 15:28:53,902 - INFO - Update id=792260721 is handled. Duration 808 ms by bot id=6235250605
+2024-08-20 15:31:06,866 - INFO - Received message from 145447467: /start
+2024-08-20 15:31:07,332 - INFO - Update id=792260722 is handled. Duration 471 ms by bot id=6235250605
+2024-08-20 15:31:14,634 - INFO - Update id=792260723 is handled. Duration 364 ms by bot id=6235250605
+2024-08-20 15:31:27,204 - INFO - Update id=792260724 is handled. Duration 322 ms by bot id=6235250605
+2024-08-20 15:31:33,869 - INFO - Update id=792260725 is handled. Duration 321 ms by bot id=6235250605
+2024-08-20 15:32:16,823 - INFO - Received message from 145447467: /start
+2024-08-20 15:32:17,645 - INFO - Update id=792260726 is handled. Duration 827 ms by bot id=6235250605
+2024-08-20 15:32:20,170 - INFO - Update id=792260727 is handled. Duration 371 ms by bot id=6235250605
+2024-08-20 15:32:25,654 - INFO - Update id=792260728 is handled. Duration 325 ms by bot id=6235250605
+2024-08-20 15:32:38,241 - INFO - Received message from 145447467: /start
+2024-08-20 15:32:38,441 - INFO - Update id=792260729 is handled. Duration 204 ms by bot id=6235250605
+2024-08-20 15:32:55,971 - INFO - Update id=792260730 is handled. Duration 655 ms by bot id=6235250605
+2024-08-20 15:34:52,728 - INFO - Update id=792260731 is handled. Duration 828 ms by bot id=6235250605
+2024-08-20 15:49:39,673 - WARNING - Received SIGINT signal
+2024-08-20 15:49:39,678 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 15:49:39,679 - INFO - Polling stopped
+2024-08-20 15:49:43,357 - INFO - Start polling
+2024-08-20 15:49:43,509 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 15:50:06,474 - INFO - Received message from 964635576: /start
+2024-08-20 15:50:07,021 - INFO - Update id=792260732 is handled. Duration 566 ms by bot id=6235250605
+2024-08-20 15:50:16,422 - INFO - Update id=792260733 is handled. Duration 424 ms by bot id=6235250605
+2024-08-20 15:51:26,109 - INFO - Received message from 964635576: /start
+2024-08-20 15:51:26,617 - INFO - Update id=792260734 is handled. Duration 511 ms by bot id=6235250605
+2024-08-20 15:51:29,470 - INFO - Update id=792260735 is handled. Duration 383 ms by bot id=6235250605
+2024-08-20 15:51:45,300 - INFO - Received message from 964635576: /start
+2024-08-20 15:51:45,817 - INFO - Update id=792260736 is handled. Duration 517 ms by bot id=6235250605
+2024-08-20 15:51:56,367 - INFO - Update id=792260737 is handled. Duration 348 ms by bot id=6235250605
+2024-08-20 15:52:03,776 - INFO - Received message from 964635576: /start
+2024-08-20 15:52:04,011 - INFO - Update id=792260738 is handled. Duration 237 ms by bot id=6235250605
+2024-08-20 15:52:05,984 - INFO - Update id=792260739 is handled. Duration 597 ms by bot id=6235250605
+2024-08-20 15:52:08,946 - INFO - Received message from 964635576: /start
+2024-08-20 15:52:09,156 - INFO - Update id=792260740 is handled. Duration 211 ms by bot id=6235250605
+2024-08-20 15:52:19,393 - INFO - Update id=792260741 is handled. Duration 7343 ms by bot id=6235250605
+2024-08-20 15:52:21,249 - INFO - Received message from 964635576: /start
+2024-08-20 15:52:21,523 - INFO - Update id=792260742 is handled. Duration 276 ms by bot id=6235250605
+2024-08-20 15:52:24,669 - INFO - Update id=792260743 is handled. Duration 723 ms by bot id=6235250605
+2024-08-20 15:54:37,219 - INFO - Received message from 964635576: /start
+2024-08-20 15:54:37,785 - INFO - Update id=792260744 is handled. Duration 571 ms by bot id=6235250605
+2024-08-20 17:02:17,331 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-20 17:02:17,334 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 17:02:28,928 - INFO - Connection established (tryings = 1, bot id = 6235250605)
+2024-08-20 17:02:51,901 - WARNING - Received SIGINT signal
+2024-08-20 17:02:51,911 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:02:51,911 - INFO - Polling stopped
+2024-08-20 17:02:57,575 - INFO - Start polling
+2024-08-20 17:02:57,723 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:03:17,178 - INFO - Received message from 964635576: /start
+2024-08-20 17:03:17,723 - INFO - Update id=792260745 is handled. Duration 564 ms by bot id=6235250605
+2024-08-20 17:03:27,607 - INFO - Received message from 964635576: /support
+2024-08-20 17:03:27,817 - INFO - Update id=792260746 is handled. Duration 212 ms by bot id=6235250605
+2024-08-20 17:03:32,750 - INFO - Update id=792260747 is handled. Duration 540 ms by bot id=6235250605
+2024-08-20 17:03:43,886 - INFO - Received message from 964635576: /support
+2024-08-20 17:03:44,086 - INFO - Update id=792260748 is handled. Duration 202 ms by bot id=6235250605
+2024-08-20 17:08:17,213 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-20 17:08:17,215 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 17:08:28,971 - INFO - Connection established (tryings = 1, bot id = 6235250605)
+2024-08-20 17:22:22,115 - WARNING - Received SIGINT signal
+2024-08-20 17:22:22,121 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:22:22,122 - INFO - Polling stopped
+2024-08-20 17:23:19,314 - INFO - Start polling
+2024-08-20 17:23:19,448 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:23:46,768 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:23:46,861 - INFO - Update id=792260749 is handled. Duration 104 ms by bot id=6235250605
+2024-08-20 17:26:28,445 - WARNING - Received SIGINT signal
+2024-08-20 17:26:28,449 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:26:28,449 - INFO - Polling stopped
+2024-08-20 17:27:37,932 - INFO - Start polling
+2024-08-20 17:27:38,091 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:27:39,043 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:27:39,155 - INFO - Update id=792260751 is handled. Duration 117 ms by bot id=6235250605
+2024-08-20 17:27:51,449 - WARNING - Received SIGINT signal
+2024-08-20 17:27:51,451 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:27:51,451 - INFO - Polling stopped
+2024-08-20 17:32:11,268 - INFO - Start polling
+2024-08-20 17:32:11,418 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:32:14,742 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:32:14,834 - INFO - Update id=792260752 is not handled. Duration 100 ms by bot id=6235250605
+2024-08-20 17:32:14,834 - ERROR - Cause exception while process update id=792260752 by bot id=6235250605
+ModuleNotFoundError: No module named 'xlsxwriter'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/statistics.py", line 28, in handle_statistics
+    writer = pd.ExcelWriter('Статистика.xlsx', engine='xlsxwriter')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/pandas/io/excel/_xlsxwriter.py", line 197, in __init__
+    from xlsxwriter import Workbook
+ModuleNotFoundError: No module named 'xlsxwriter'
+2024-08-20 17:32:59,260 - INFO - Start polling
+2024-08-20 17:32:59,428 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:32:59,611 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-20 17:32:59,612 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 17:33:02,414 - INFO - Connection established (tryings = 1, bot id = 6235250605)
+2024-08-20 17:33:02,419 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:33:02,437 - INFO - Update id=792260753 is not handled. Duration 22 ms by bot id=6235250605
+2024-08-20 17:33:02,437 - ERROR - Cause exception while process update id=792260753 by bot id=6235250605
+ModuleNotFoundError: No module named 'xlsxwriter'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/statistics.py", line 28, in handle_statistics
+    writer = pd.ExcelWriter('Статистика.xlsx', engine='xlsxwriter')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/pandas/io/excel/_xlsxwriter.py", line 197, in __init__
+    from xlsxwriter import Workbook
+ModuleNotFoundError: No module named 'xlsxwriter'
+2024-08-20 17:33:03,842 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-20 17:33:03,842 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 17:33:05,052 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-20 17:33:05,052 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 17:33:07,967 - INFO - Connection established (tryings = 1, bot id = 6235250605)
+2024-08-20 17:33:07,972 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:33:07,989 - INFO - Update id=792260754 is not handled. Duration 19 ms by bot id=6235250605
+2024-08-20 17:33:07,989 - ERROR - Cause exception while process update id=792260754 by bot id=6235250605
+ModuleNotFoundError: No module named 'xlsxwriter'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/statistics.py", line 28, in handle_statistics
+    writer = pd.ExcelWriter('Статистика.xlsx', engine='xlsxwriter')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/pandas/io/excel/_xlsxwriter.py", line 197, in __init__
+    from xlsxwriter import Workbook
+ModuleNotFoundError: No module named 'xlsxwriter'
+2024-08-20 17:33:09,401 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-20 17:33:09,401 - WARNING - Sleep for 1.312493 seconds and try again... (tryings = 1, bot id = 6235250605)
+2024-08-20 17:33:10,970 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-20 17:33:10,971 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 17:33:13,086 - INFO - Connection established (tryings = 1, bot id = 6235250605)
+2024-08-20 17:33:13,091 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:33:13,109 - INFO - Update id=792260755 is not handled. Duration 20 ms by bot id=6235250605
+2024-08-20 17:33:13,109 - ERROR - Cause exception while process update id=792260755 by bot id=6235250605
+ModuleNotFoundError: No module named 'xlsxwriter'
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/statistics.py", line 28, in handle_statistics
+    writer = pd.ExcelWriter('Статистика.xlsx', engine='xlsxwriter')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/pandas/io/excel/_xlsxwriter.py", line 197, in __init__
+    from xlsxwriter import Workbook
+ModuleNotFoundError: No module named 'xlsxwriter'
+2024-08-20 17:33:15,239 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-20 17:33:15,241 - WARNING - Sleep for 1.543128 seconds and try again... (tryings = 2, bot id = 6235250605)
+2024-08-20 17:33:17,080 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-20 17:33:17,080 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 17:33:17,866 - WARNING - Received SIGINT signal
+2024-08-20 17:33:17,869 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:33:17,869 - INFO - Polling stopped
+2024-08-20 17:33:22,193 - WARNING - Received SIGINT signal
+2024-08-20 17:33:22,196 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:33:22,196 - INFO - Polling stopped
+2024-08-20 17:33:36,596 - INFO - Start polling
+2024-08-20 17:33:36,759 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:33:37,749 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:34:32,006 - INFO - Start polling
+2024-08-20 17:34:32,149 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:34:33,658 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:35:04,255 - INFO - Start polling
+2024-08-20 17:35:04,417 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:35:05,915 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:35:09,647 - INFO - Update id=792260758 is handled. Duration 3737 ms by bot id=6235250605
+2024-08-20 17:42:38,485 - INFO - Start polling
+2024-08-20 17:42:38,687 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:42:40,449 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:42:40,466 - INFO - Update id=792260759 is not handled. Duration 24 ms by bot id=6235250605
+2024-08-20 17:42:40,466 - ERROR - Cause exception while process update id=792260759 by bot id=6235250605
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/statistics.py", line 25, in handle_statistics
+    result_1 = result.all()
+               ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2024-08-20 17:42:43,806 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:42:43,817 - INFO - Update id=792260760 is not handled. Duration 12 ms by bot id=6235250605
+2024-08-20 17:42:43,817 - ERROR - Cause exception while process update id=792260760 by bot id=6235250605
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/statistics.py", line 25, in handle_statistics
+    result_1 = result.all()
+               ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2024-08-20 17:42:56,237 - WARNING - Received SIGINT signal
+2024-08-20 17:42:56,239 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:42:56,240 - INFO - Polling stopped
+2024-08-20 17:43:08,369 - INFO - Start polling
+2024-08-20 17:43:08,527 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:43:09,961 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:43:40,616 - INFO - Start polling
+2024-08-20 17:43:40,765 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:43:47,161 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:43:50,500 - INFO - Update id=792260762 is handled. Duration 3344 ms by bot id=6235250605
+2024-08-20 17:46:39,369 - INFO - Start polling
+2024-08-20 17:46:39,519 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:46:44,282 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:48:27,475 - INFO - Start polling
+2024-08-20 17:48:27,648 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:48:29,676 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:48:32,293 - INFO - Update id=792260764 is handled. Duration 2621 ms by bot id=6235250605
+2024-08-20 17:51:08,828 - INFO - Start polling
+2024-08-20 17:51:08,982 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 17:51:11,320 - INFO - Received message from 964635576: /statistics
+2024-08-20 17:51:11,367 - INFO - Update id=792260765 is handled. Duration 52 ms by bot id=6235250605
+2024-08-20 18:11:00,391 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-20 18:11:00,394 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 18:11:01,407 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:11:01,408 - WARNING - Sleep for 1.359514 seconds and try again... (tryings = 1, bot id = 6235250605)
+2024-08-20 18:11:02,769 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:11:02,770 - WARNING - Sleep for 1.655153 seconds and try again... (tryings = 2, bot id = 6235250605)
+2024-08-20 18:11:04,430 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:11:04,430 - WARNING - Sleep for 2.127702 seconds and try again... (tryings = 3, bot id = 6235250605)
+2024-08-20 18:11:22,530 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:11:22,531 - WARNING - Sleep for 2.730908 seconds and try again... (tryings = 4, bot id = 6235250605)
+2024-08-20 18:11:25,266 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:11:25,267 - WARNING - Sleep for 3.521011 seconds and try again... (tryings = 5, bot id = 6235250605)
+2024-08-20 18:12:21,666 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:12:21,666 - WARNING - Sleep for 4.713945 seconds and try again... (tryings = 6, bot id = 6235250605)
+2024-08-20 18:12:26,385 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:12:26,385 - WARNING - Sleep for 5.104336 seconds and try again... (tryings = 7, bot id = 6235250605)
+2024-08-20 18:15:02,235 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:15:02,236 - WARNING - Sleep for 5.122801 seconds and try again... (tryings = 8, bot id = 6235250605)
+2024-08-20 18:16:00,182 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:16:00,182 - WARNING - Sleep for 5.001368 seconds and try again... (tryings = 9, bot id = 6235250605)
+2024-08-20 18:16:05,188 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:16:05,189 - WARNING - Sleep for 5.060495 seconds and try again... (tryings = 10, bot id = 6235250605)
+2024-08-20 18:19:05,314 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:19:05,314 - WARNING - Sleep for 4.933457 seconds and try again... (tryings = 11, bot id = 6235250605)
+2024-08-20 18:20:02,275 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:20:02,276 - WARNING - Sleep for 4.846234 seconds and try again... (tryings = 12, bot id = 6235250605)
+2024-08-20 18:20:07,134 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:20:07,135 - WARNING - Sleep for 5.139272 seconds and try again... (tryings = 13, bot id = 6235250605)
+2024-08-20 18:22:09,915 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:22:09,916 - WARNING - Sleep for 4.858282 seconds and try again... (tryings = 14, bot id = 6235250605)
+2024-08-20 18:22:14,779 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:22:14,780 - WARNING - Sleep for 5.073052 seconds and try again... (tryings = 15, bot id = 6235250605)
+2024-08-20 18:23:11,338 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:23:11,340 - WARNING - Sleep for 5.156089 seconds and try again... (tryings = 16, bot id = 6235250605)
+2024-08-20 18:25:08,114 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:25:08,115 - WARNING - Sleep for 4.981151 seconds and try again... (tryings = 17, bot id = 6235250605)
+2024-08-20 18:27:07,713 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:27:07,714 - WARNING - Sleep for 5.142966 seconds and try again... (tryings = 18, bot id = 6235250605)
+2024-08-20 18:27:12,861 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:27:12,862 - WARNING - Sleep for 5.038497 seconds and try again... (tryings = 19, bot id = 6235250605)
+2024-08-20 18:28:10,726 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:28:10,727 - WARNING - Sleep for 5.081573 seconds and try again... (tryings = 20, bot id = 6235250605)
+2024-08-20 18:29:08,616 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:29:08,616 - WARNING - Sleep for 5.049060 seconds and try again... (tryings = 21, bot id = 6235250605)
+2024-08-20 18:29:13,669 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:29:13,670 - WARNING - Sleep for 5.029617 seconds and try again... (tryings = 22, bot id = 6235250605)
+2024-08-20 18:30:05,378 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:30:05,378 - WARNING - Sleep for 5.028800 seconds and try again... (tryings = 23, bot id = 6235250605)
+2024-08-20 18:31:11,652 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:31:11,652 - WARNING - Sleep for 4.970642 seconds and try again... (tryings = 24, bot id = 6235250605)
+2024-08-20 18:31:44,399 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:31:44,399 - WARNING - Sleep for 4.986247 seconds and try again... (tryings = 25, bot id = 6235250605)
+2024-08-20 18:31:49,390 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:31:49,391 - WARNING - Sleep for 5.111759 seconds and try again... (tryings = 26, bot id = 6235250605)
+2024-08-20 18:33:16,057 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:33:16,057 - WARNING - Sleep for 5.151225 seconds and try again... (tryings = 27, bot id = 6235250605)
+2024-08-20 18:33:21,210 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:33:21,211 - WARNING - Sleep for 4.892671 seconds and try again... (tryings = 28, bot id = 6235250605)
+2024-08-20 18:35:20,260 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:35:20,261 - WARNING - Sleep for 5.018226 seconds and try again... (tryings = 29, bot id = 6235250605)
+2024-08-20 18:35:26,888 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:35:26,889 - WARNING - Sleep for 4.848574 seconds and try again... (tryings = 30, bot id = 6235250605)
+2024-08-20 18:35:31,742 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:35:31,743 - WARNING - Sleep for 4.981669 seconds and try again... (tryings = 31, bot id = 6235250605)
+2024-08-20 18:36:20,765 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:36:20,766 - WARNING - Sleep for 4.904249 seconds and try again... (tryings = 32, bot id = 6235250605)
+2024-08-20 18:36:26,385 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:36:26,386 - WARNING - Sleep for 4.998623 seconds and try again... (tryings = 33, bot id = 6235250605)
+2024-08-20 18:36:31,389 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:36:31,390 - WARNING - Sleep for 4.874876 seconds and try again... (tryings = 34, bot id = 6235250605)
+2024-08-20 18:37:21,172 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:37:21,172 - WARNING - Sleep for 5.011344 seconds and try again... (tryings = 35, bot id = 6235250605)
+2024-08-20 18:38:21,215 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:38:21,215 - WARNING - Sleep for 5.019432 seconds and try again... (tryings = 36, bot id = 6235250605)
+2024-08-20 18:38:26,238 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:38:26,238 - WARNING - Sleep for 5.166692 seconds and try again... (tryings = 37, bot id = 6235250605)
+2024-08-20 18:40:26,012 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:40:26,013 - WARNING - Sleep for 5.218081 seconds and try again... (tryings = 38, bot id = 6235250605)
+2024-08-20 18:41:21,571 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:41:21,572 - WARNING - Sleep for 5.132068 seconds and try again... (tryings = 39, bot id = 6235250605)
+2024-08-20 18:41:26,708 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:41:26,709 - WARNING - Sleep for 4.948014 seconds and try again... (tryings = 40, bot id = 6235250605)
+2024-08-20 18:42:16,021 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:42:16,022 - WARNING - Sleep for 4.904066 seconds and try again... (tryings = 41, bot id = 6235250605)
+2024-08-20 18:42:23,481 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:42:23,481 - WARNING - Sleep for 5.064791 seconds and try again... (tryings = 42, bot id = 6235250605)
+2024-08-20 18:42:28,551 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:42:28,551 - WARNING - Sleep for 5.086158 seconds and try again... (tryings = 43, bot id = 6235250605)
+2024-08-20 18:44:22,086 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:44:22,087 - WARNING - Sleep for 4.930233 seconds and try again... (tryings = 44, bot id = 6235250605)
+2024-08-20 18:45:19,830 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:45:19,830 - WARNING - Sleep for 5.009553 seconds and try again... (tryings = 45, bot id = 6235250605)
+2024-08-20 18:45:24,843 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:45:24,844 - WARNING - Sleep for 5.028612 seconds and try again... (tryings = 46, bot id = 6235250605)
+2024-08-20 18:47:31,064 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:47:31,065 - WARNING - Sleep for 4.913039 seconds and try again... (tryings = 47, bot id = 6235250605)
+2024-08-20 18:48:28,100 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:48:28,100 - WARNING - Sleep for 5.059588 seconds and try again... (tryings = 48, bot id = 6235250605)
+2024-08-20 18:48:33,163 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:48:33,163 - WARNING - Sleep for 5.028857 seconds and try again... (tryings = 49, bot id = 6235250605)
+2024-08-20 18:49:30,984 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:49:30,985 - WARNING - Sleep for 5.085569 seconds and try again... (tryings = 50, bot id = 6235250605)
+2024-08-20 18:49:36,481 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:49:36,482 - WARNING - Sleep for 4.875382 seconds and try again... (tryings = 51, bot id = 6235250605)
+2024-08-20 18:49:41,361 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:49:41,361 - WARNING - Sleep for 4.929806 seconds and try again... (tryings = 52, bot id = 6235250605)
+2024-08-20 18:50:17,458 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:50:17,459 - WARNING - Sleep for 4.891852 seconds and try again... (tryings = 53, bot id = 6235250605)
+2024-08-20 18:50:26,603 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:50:26,604 - WARNING - Sleep for 4.948635 seconds and try again... (tryings = 54, bot id = 6235250605)
+2024-08-20 18:50:31,556 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:50:31,556 - WARNING - Sleep for 4.852110 seconds and try again... (tryings = 55, bot id = 6235250605)
+2024-08-20 18:50:40,689 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:50:40,689 - WARNING - Sleep for 4.914821 seconds and try again... (tryings = 56, bot id = 6235250605)
+2024-08-20 18:51:30,968 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:51:30,970 - WARNING - Sleep for 4.999675 seconds and try again... (tryings = 57, bot id = 6235250605)
+2024-08-20 18:51:35,973 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:51:35,973 - WARNING - Sleep for 4.928501 seconds and try again... (tryings = 58, bot id = 6235250605)
+2024-08-20 18:52:34,135 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:52:34,136 - WARNING - Sleep for 4.924844 seconds and try again... (tryings = 59, bot id = 6235250605)
+2024-08-20 18:53:31,449 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:53:31,449 - WARNING - Sleep for 5.071420 seconds and try again... (tryings = 60, bot id = 6235250605)
+2024-08-20 18:53:36,523 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:53:36,527 - WARNING - Sleep for 4.873161 seconds and try again... (tryings = 61, bot id = 6235250605)
+2024-08-20 18:54:36,924 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:54:36,925 - WARNING - Sleep for 4.929421 seconds and try again... (tryings = 62, bot id = 6235250605)
+2024-08-20 18:54:41,859 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:54:41,859 - WARNING - Sleep for 5.051060 seconds and try again... (tryings = 63, bot id = 6235250605)
+2024-08-20 18:56:31,086 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:56:31,088 - WARNING - Sleep for 4.967601 seconds and try again... (tryings = 64, bot id = 6235250605)
+2024-08-20 18:57:37,245 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:57:37,246 - WARNING - Sleep for 5.062514 seconds and try again... (tryings = 65, bot id = 6235250605)
+2024-08-20 18:59:28,584 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:59:28,584 - WARNING - Sleep for 4.971516 seconds and try again... (tryings = 66, bot id = 6235250605)
+2024-08-20 18:59:33,560 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 18:59:33,560 - WARNING - Sleep for 4.832079 seconds and try again... (tryings = 67, bot id = 6235250605)
+2024-08-20 19:01:41,383 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:01:41,383 - WARNING - Sleep for 5.148772 seconds and try again... (tryings = 68, bot id = 6235250605)
+2024-08-20 19:03:31,886 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:03:31,887 - WARNING - Sleep for 4.977483 seconds and try again... (tryings = 69, bot id = 6235250605)
+2024-08-20 19:03:36,868 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:03:36,870 - WARNING - Sleep for 4.997340 seconds and try again... (tryings = 70, bot id = 6235250605)
+2024-08-20 19:05:45,304 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:05:45,305 - WARNING - Sleep for 5.058238 seconds and try again... (tryings = 71, bot id = 6235250605)
+2024-08-20 19:07:35,266 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:07:35,266 - WARNING - Sleep for 4.974814 seconds and try again... (tryings = 72, bot id = 6235250605)
+2024-08-20 19:07:40,246 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:07:40,246 - WARNING - Sleep for 4.911114 seconds and try again... (tryings = 73, bot id = 6235250605)
+2024-08-20 19:08:48,161 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:08:48,162 - WARNING - Sleep for 5.130399 seconds and try again... (tryings = 74, bot id = 6235250605)
+2024-08-20 19:10:35,634 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:10:35,634 - WARNING - Sleep for 4.976487 seconds and try again... (tryings = 75, bot id = 6235250605)
+2024-08-20 19:10:40,616 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:10:40,616 - WARNING - Sleep for 5.008682 seconds and try again... (tryings = 76, bot id = 6235250605)
+2024-08-20 19:12:49,931 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:12:49,931 - WARNING - Sleep for 5.017588 seconds and try again... (tryings = 77, bot id = 6235250605)
+2024-08-20 19:13:47,799 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:13:47,800 - WARNING - Sleep for 4.948008 seconds and try again... (tryings = 78, bot id = 6235250605)
+2024-08-20 19:13:52,751 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:13:52,751 - WARNING - Sleep for 4.924761 seconds and try again... (tryings = 79, bot id = 6235250605)
+2024-08-20 19:15:52,700 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:15:52,701 - WARNING - Sleep for 4.980023 seconds and try again... (tryings = 80, bot id = 6235250605)
+2024-08-20 19:16:50,538 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:16:50,538 - WARNING - Sleep for 4.903086 seconds and try again... (tryings = 81, bot id = 6235250605)
+2024-08-20 19:16:55,447 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:16:55,449 - WARNING - Sleep for 4.978696 seconds and try again... (tryings = 82, bot id = 6235250605)
+2024-08-20 19:19:45,287 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:19:45,287 - WARNING - Sleep for 4.928489 seconds and try again... (tryings = 83, bot id = 6235250605)
+2024-08-20 19:20:42,325 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:20:42,325 - WARNING - Sleep for 4.960507 seconds and try again... (tryings = 84, bot id = 6235250605)
+2024-08-20 19:20:47,290 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:20:47,291 - WARNING - Sleep for 4.985388 seconds and try again... (tryings = 85, bot id = 6235250605)
+2024-08-20 19:21:46,419 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:21:46,420 - WARNING - Sleep for 5.147390 seconds and try again... (tryings = 86, bot id = 6235250605)
+2024-08-20 19:21:51,571 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:21:51,571 - WARNING - Sleep for 4.961543 seconds and try again... (tryings = 87, bot id = 6235250605)
+2024-08-20 19:24:00,876 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:24:00,877 - WARNING - Sleep for 4.954531 seconds and try again... (tryings = 88, bot id = 6235250605)
+2024-08-20 19:24:58,642 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:24:58,642 - WARNING - Sleep for 5.048319 seconds and try again... (tryings = 89, bot id = 6235250605)
+2024-08-20 19:26:46,392 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:26:46,392 - WARNING - Sleep for 4.809925 seconds and try again... (tryings = 90, bot id = 6235250605)
+2024-08-20 19:26:51,205 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:26:51,206 - WARNING - Sleep for 5.262594 seconds and try again... (tryings = 91, bot id = 6235250605)
+2024-08-20 19:28:02,492 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:28:02,493 - WARNING - Sleep for 4.850236 seconds and try again... (tryings = 92, bot id = 6235250605)
+2024-08-20 19:29:00,167 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:29:00,167 - WARNING - Sleep for 4.959227 seconds and try again... (tryings = 93, bot id = 6235250605)
+2024-08-20 19:29:05,131 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:29:05,132 - WARNING - Sleep for 5.027891 seconds and try again... (tryings = 94, bot id = 6235250605)
+2024-08-20 19:31:53,306 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:31:53,306 - WARNING - Sleep for 5.046598 seconds and try again... (tryings = 95, bot id = 6235250605)
+2024-08-20 19:34:05,330 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:34:05,332 - WARNING - Sleep for 5.083814 seconds and try again... (tryings = 96, bot id = 6235250605)
+2024-08-20 19:34:10,421 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:34:10,421 - WARNING - Sleep for 4.979768 seconds and try again... (tryings = 97, bot id = 6235250605)
+2024-08-20 19:35:07,073 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-08-20 19:35:07,073 - WARNING - Sleep for 5.060378 seconds and try again... (tryings = 98, bot id = 6235250605)
+2024-08-20 19:35:12,427 - INFO - Connection established (tryings = 99, bot id = 6235250605)
+2024-08-20 19:35:12,447 - INFO - Update id=792260766 is not handled. Duration 17 ms by bot id=6235250605
+2024-08-20 19:42:04,412 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-20 19:42:04,413 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 19:42:15,728 - INFO - Connection established (tryings = 1, bot id = 6235250605)
+2024-08-20 19:51:05,909 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-20 19:51:05,910 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-20 19:51:17,249 - INFO - Connection established (tryings = 1, bot id = 6235250605)
+2024-08-20 22:32:46,599 - INFO - Start polling
+2024-08-20 22:32:46,705 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:32:56,443 - INFO - Received message from 964635576: /statistics
+2024-08-20 22:32:57,080 - INFO - Update id=792260767 is not handled. Duration 730 ms by bot id=6235250605
+2024-08-20 22:32:57,080 - ERROR - Cause exception while process update id=792260767 by bot id=6235250605
+TelegramBadRequest: Telegram server says - Bad Request: failed to get HTTP URL content
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/statistics.py", line 82, in handle_statistics
+    await message.answer_document('Статистика.xlsx', caption=caption)
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: failed to get HTTP URL content
+2024-08-20 22:33:03,601 - INFO - Received message from 964635576: /statistics
+2024-08-20 22:33:03,903 - INFO - Update id=792260768 is not handled. Duration 304 ms by bot id=6235250605
+2024-08-20 22:33:03,903 - ERROR - Cause exception while process update id=792260768 by bot id=6235250605
+TelegramBadRequest: Telegram server says - Bad Request: wrong file identifier/HTTP URL specified
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/statistics.py", line 82, in handle_statistics
+    await message.answer_document('Статистика.xlsx', caption=caption)
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: wrong file identifier/HTTP URL specified
+2024-08-20 22:33:18,763 - WARNING - Received SIGINT signal
+2024-08-20 22:33:18,765 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:33:18,765 - INFO - Polling stopped
+2024-08-20 22:34:30,389 - INFO - Start polling
+2024-08-20 22:34:30,498 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:34:34,627 - INFO - Received message from 964635576: /statistics
+2024-08-20 22:34:35,444 - INFO - Update id=792260769 is handled. Duration 879 ms by bot id=6235250605
+2024-08-20 22:35:09,421 - INFO - Received message from 964635576: /start
+2024-08-20 22:35:09,898 - INFO - Update id=792260770 is handled. Duration 517 ms by bot id=6235250605
+2024-08-20 22:35:12,636 - INFO - Update id=792260771 is handled. Duration 536 ms by bot id=6235250605
+2024-08-20 22:35:16,538 - INFO - не удалось удалить сообщение Unconsumed column names: callback
+2024-08-20 22:35:16,700 - INFO - Update id=792260772 is not handled. Duration 616 ms by bot id=6235250605
+2024-08-20 22:35:16,701 - ERROR - Cause exception while process update id=792260772 by bot id=6235250605
+CompileError: Unconsumed column names: callback
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/callbacks/want_to_participate.py", line 40, in handle_waiting_for_choise
+    await session.execute(add_callback)
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 190, in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/orm/bulk_persistence.py", line 1305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1632, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 716, in _compile_w_cache
+    compiled_sql = self._compiler(
+                   ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 316, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py", line 1429, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py", line 870, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py", line 915, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/annotation.py", line 344, in _compiler_dispatch
+    return self.__element.__class__._compiler_dispatch(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py", line 141, in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py", line 5789, in visit_insert
+    crud_params_struct = crud._get_crud_params(
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/crud.py", line 335, in _get_crud_params
+    raise exc.CompileError(
+sqlalchemy.exc.CompileError: Unconsumed column names: callback
+2024-08-20 22:35:21,844 - INFO - Received message from 964635576: /start
+2024-08-20 22:35:22,064 - INFO - Update id=792260773 is handled. Duration 220 ms by bot id=6235250605
+2024-08-20 22:35:30,189 - INFO - Update id=792260774 is handled. Duration 394 ms by bot id=6235250605
+2024-08-20 22:35:32,010 - INFO - не удалось удалить сообщение Unconsumed column names: callback
+2024-08-20 22:35:32,149 - INFO - Update id=792260775 is not handled. Duration 455 ms by bot id=6235250605
+2024-08-20 22:35:32,149 - ERROR - Cause exception while process update id=792260775 by bot id=6235250605
+CompileError: Unconsumed column names: callback
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/callbacks/want_to_participate.py", line 40, in handle_waiting_for_choise
+    await session.execute(add_callback)
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 190, in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/orm/bulk_persistence.py", line 1305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1632, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 716, in _compile_w_cache
+    compiled_sql = self._compiler(
+                   ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 316, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py", line 1429, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py", line 870, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py", line 915, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/annotation.py", line 344, in _compiler_dispatch
+    return self.__element.__class__._compiler_dispatch(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py", line 141, in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py", line 5789, in visit_insert
+    crud_params_struct = crud._get_crud_params(
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/sqlalchemy/sql/crud.py", line 335, in _get_crud_params
+    raise exc.CompileError(
+sqlalchemy.exc.CompileError: Unconsumed column names: callback
+2024-08-20 22:35:36,271 - INFO - Received message from 964635576: /start
+2024-08-20 22:35:36,461 - INFO - Update id=792260776 is handled. Duration 190 ms by bot id=6235250605
+2024-08-20 22:35:42,061 - INFO - Received message from 964635576: /statistics
+2024-08-20 22:35:42,376 - INFO - Update id=792260777 is handled. Duration 329 ms by bot id=6235250605
+2024-08-20 22:39:05,755 - WARNING - Received SIGINT signal
+2024-08-20 22:39:05,758 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:39:05,758 - INFO - Polling stopped
+2024-08-20 22:39:10,785 - INFO - Start polling
+2024-08-20 22:39:10,888 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:39:14,597 - INFO - Received message from 964635576: /start
+2024-08-20 22:39:14,994 - INFO - Update id=792260778 is handled. Duration 399 ms by bot id=6235250605
+2024-08-20 22:39:16,601 - INFO - Update id=792260779 is handled. Duration 419 ms by bot id=6235250605
+2024-08-20 22:39:18,372 - INFO - Update id=792260780 is handled. Duration 360 ms by bot id=6235250605
+2024-08-20 22:39:22,746 - INFO - Received message from 964635576: /statistics
+2024-08-20 22:39:23,040 - INFO - Update id=792260781 is handled. Duration 294 ms by bot id=6235250605
+2024-08-20 22:42:17,482 - WARNING - Received SIGINT signal
+2024-08-20 22:42:17,485 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:42:17,485 - INFO - Polling stopped
+2024-08-20 22:42:23,218 - INFO - Start polling
+2024-08-20 22:42:23,334 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:42:25,841 - INFO - Received message from 964635576: /statistics
+2024-08-20 22:42:26,442 - INFO - Update id=792260782 is handled. Duration 604 ms by bot id=6235250605
+2024-08-20 22:42:52,089 - WARNING - Received SIGINT signal
+2024-08-20 22:42:52,091 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:42:52,091 - INFO - Polling stopped
+2024-08-20 22:42:56,884 - INFO - Start polling
+2024-08-20 22:42:57,024 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:43:00,986 - INFO - Received message from 964635576: /statistics
+2024-08-20 22:43:01,749 - INFO - Update id=792260783 is handled. Duration 765 ms by bot id=6235250605
+2024-08-20 22:52:11,937 - WARNING - Received SIGINT signal
+2024-08-20 22:52:11,942 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:52:11,942 - INFO - Polling stopped
+2024-08-20 22:52:15,773 - INFO - Start polling
+2024-08-20 22:52:15,881 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:52:18,062 - INFO - Received message from 964635576: /statistics
+2024-08-20 22:52:24,640 - INFO - Update id=792260784 is handled. Duration 6603 ms by bot id=6235250605
+2024-08-20 22:56:19,736 - WARNING - Received SIGINT signal
+2024-08-20 22:56:19,738 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:56:19,738 - INFO - Polling stopped
+2024-08-20 22:56:23,526 - INFO - Start polling
+2024-08-20 22:56:23,633 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 22:56:26,781 - INFO - Received message from 964635576: /statistics
+2024-08-20 22:56:27,261 - INFO - Update id=792260785 is handled. Duration 518 ms by bot id=6235250605
+2024-08-20 23:01:25,603 - WARNING - Received SIGINT signal
+2024-08-20 23:01:25,609 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:01:25,609 - INFO - Polling stopped
+2024-08-20 23:01:44,071 - INFO - Start polling
+2024-08-20 23:01:44,184 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:01:50,024 - INFO - Received message from 964635576: /statistics
+2024-08-20 23:01:51,022 - INFO - Update id=792260786 is handled. Duration 1014 ms by bot id=6235250605
+2024-08-20 23:12:05,860 - WARNING - Received SIGINT signal
+2024-08-20 23:12:05,864 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:12:05,864 - INFO - Polling stopped
+2024-08-20 23:12:24,321 - INFO - Start polling
+2024-08-20 23:12:24,434 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:12:37,896 - INFO - Received message from 964635576: /statistics
+2024-08-20 23:14:15,137 - INFO - Start polling
+2024-08-20 23:14:15,256 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:14:21,096 - INFO - Received message from 964635576: /statistics
+2024-08-20 23:14:24,276 - INFO - Update id=792260788 is handled. Duration 3202 ms by bot id=6235250605
+2024-08-20 23:16:13,297 - INFO - Start polling
+2024-08-20 23:16:13,408 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:16:16,755 - INFO - Received message from 964635576: /statistics
+2024-08-20 23:16:17,279 - INFO - Update id=792260789 is handled. Duration 568 ms by bot id=6235250605
+2024-08-20 23:19:19,103 - WARNING - Received SIGINT signal
+2024-08-20 23:19:19,105 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:19:19,105 - INFO - Polling stopped
+2024-08-20 23:19:23,289 - INFO - Start polling
+2024-08-20 23:19:23,478 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:19:25,738 - INFO - Received message from 964635576: /statistics
+2024-08-20 23:19:25,766 - INFO - Update id=792260790 is not handled. Duration 71 ms by bot id=6235250605
+2024-08-20 23:19:25,766 - ERROR - Cause exception while process update id=792260790 by bot id=6235250605
+UnboundLocalError: cannot access local variable 'df_1' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/statistics.py", line 32, in handle_statistics
+    df_1 = df_1.rename(columns={'first_name':'Имя', 'last_name':'Фамилия', 'username':'ID в Телеграм', 'click_time':'Время клика'})
+           ^^^^
+UnboundLocalError: cannot access local variable 'df_1' where it is not associated with a value
+2024-08-20 23:19:33,722 - INFO - Received message from 964635576: /statistics
+2024-08-20 23:19:33,731 - INFO - Update id=792260791 is not handled. Duration 12 ms by bot id=6235250605
+2024-08-20 23:19:33,731 - ERROR - Cause exception while process update id=792260791 by bot id=6235250605
+UnboundLocalError: cannot access local variable 'df_1' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/handlers/statistics.py", line 32, in handle_statistics
+    df_1 = df_1.rename(columns={'first_name':'Имя', 'last_name':'Фамилия', 'username':'ID в Телеграм', 'click_time':'Время клика'})
+           ^^^^
+UnboundLocalError: cannot access local variable 'df_1' where it is not associated with a value
+2024-08-20 23:19:48,907 - WARNING - Received SIGINT signal
+2024-08-20 23:19:48,910 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:19:48,910 - INFO - Polling stopped
+2024-08-20 23:19:52,744 - INFO - Start polling
+2024-08-20 23:19:52,858 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:19:54,834 - INFO - Received message from 964635576: /statistics
+2024-08-20 23:19:55,531 - INFO - Update id=792260792 is handled. Duration 711 ms by bot id=6235250605
+2024-08-20 23:20:23,230 - WARNING - Received SIGINT signal
+2024-08-20 23:20:23,235 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-20 23:20:23,235 - INFO - Polling stopped

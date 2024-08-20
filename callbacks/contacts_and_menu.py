@@ -3,7 +3,7 @@ from aiogram import F, Router, Bot
 from aiogram.types import CallbackQuery
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from config import CONTACTS_AND_MENU_TEXT
+from utils.text_messages  import CONTACTS_AND_MENU_TEXT
 from kb.contacts_and_main_menu import contacts_and_menu_markup
 
 

@@ -7,7 +7,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from config import START_TEXT
+from utils.text_messages import START_TEXT
 from users.user_manager import UserManager
 
 from kb.main_menu import markup
