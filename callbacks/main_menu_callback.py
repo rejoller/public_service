@@ -2,7 +2,6 @@ import logging
 from aiogram import Bot, F, Router
 from aiogram.types import CallbackQuery
 from aiogram.fsm.context import FSMContext
-from sqlalchemy.ext.asyncio import AsyncSession
 
 from utils.text_messages  import MAIN_MENU_TEXT
 from kb.main_menu import markup

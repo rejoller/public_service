@@ -2604,3 +2604,47 @@ UnboundLocalError: cannot access local variable 'df_1' where it is not associate
 2024-08-20 23:20:23,230 - WARNING - Received SIGINT signal
 2024-08-20 23:20:23,235 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
 2024-08-20 23:20:23,235 - INFO - Polling stopped
+2024-08-21 10:08:28,026 - INFO - Start polling
+2024-08-21 10:08:28,185 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-21 10:08:44,534 - INFO - Received message from 964635576: /start
+2024-08-21 10:08:45,332 - INFO - Update id=792260793 is handled. Duration 806 ms by bot id=6235250605
+2024-08-21 10:08:49,821 - INFO - Update id=792260794 is handled. Duration 381 ms by bot id=6235250605
+2024-08-21 10:19:27,637 - WARNING - Received SIGINT signal
+2024-08-21 10:19:27,641 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-21 10:19:27,641 - INFO - Polling stopped
+2024-08-21 10:19:41,945 - INFO - Start polling
+2024-08-21 10:19:42,095 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-21 10:19:42,880 - INFO - Received message from 964635576: /start
+2024-08-21 10:19:46,847 - INFO - Update id=792260795 is handled. Duration 3972 ms by bot id=6235250605
+2024-08-21 10:19:48,891 - INFO - Update id=792260796 is handled. Duration 336 ms by bot id=6235250605
+2024-08-21 10:19:51,476 - INFO - Update id=792260797 is handled. Duration 350 ms by bot id=6235250605
+2024-08-21 10:19:55,764 - INFO - Update id=792260798 is handled. Duration 336 ms by bot id=6235250605
+2024-08-21 10:19:57,637 - INFO - Update id=792260799 is handled. Duration 368 ms by bot id=6235250605
+2024-08-21 10:19:58,809 - INFO - Received message from 964635576: /start
+2024-08-21 10:20:00,962 - INFO - Update id=792260800 is handled. Duration 2156 ms by bot id=6235250605
+2024-08-21 10:20:03,770 - INFO - Update id=792260801 is handled. Duration 354 ms by bot id=6235250605
+2024-08-21 10:20:06,513 - INFO - Update id=792260802 is handled. Duration 335 ms by bot id=6235250605
+2024-08-21 10:20:08,425 - INFO - Update id=792260803 is handled. Duration 332 ms by bot id=6235250605
+2024-08-21 10:20:09,868 - INFO - Received message from 964635576: /start
+2024-08-21 10:20:11,923 - INFO - Update id=792260804 is handled. Duration 2057 ms by bot id=6235250605
+2024-08-21 10:20:14,333 - INFO - Update id=792260805 is handled. Duration 538 ms by bot id=6235250605
+2024-08-21 10:20:17,365 - INFO - Update id=792260806 is handled. Duration 558 ms by bot id=6235250605
+2024-08-21 10:20:25,841 - INFO - Received message from 964635576: /support
+2024-08-21 10:20:28,244 - INFO - Update id=792260807 is handled. Duration 2406 ms by bot id=6235250605
+2024-08-21 10:20:48,567 - INFO - Received message from 964635576: /statistics
+2024-08-21 10:20:52,703 - INFO - Update id=792260808 is handled. Duration 4137 ms by bot id=6235250605
+2024-08-21 10:21:51,546 - INFO - Received message from 964635576: /start
+2024-08-21 10:21:54,117 - INFO - Update id=792260809 is handled. Duration 2573 ms by bot id=6235250605
+2024-08-21 10:21:58,034 - INFO - Update id=792260810 is handled. Duration 345 ms by bot id=6235250605
+2024-08-21 10:22:01,069 - INFO - Received message from 964635576: /statistics
+2024-08-21 10:22:02,787 - INFO - Update id=792260811 is handled. Duration 1721 ms by bot id=6235250605
+2024-08-21 10:22:18,527 - INFO - Received message from 964635576: /start
+2024-08-21 10:22:20,380 - INFO - Update id=792260812 is handled. Duration 1855 ms by bot id=6235250605
+2024-08-21 10:22:24,843 - INFO - Update id=792260813 is handled. Duration 431 ms by bot id=6235250605
+2024-08-21 10:22:27,487 - INFO - Received message from 964635576: /statistics
+2024-08-21 10:22:28,709 - INFO - Update id=792260814 is handled. Duration 1225 ms by bot id=6235250605
+2024-08-21 10:22:58,973 - INFO - Received message from 964635576: /start
+2024-08-21 10:23:00,583 - INFO - Update id=792260815 is handled. Duration 1612 ms by bot id=6235250605
+2024-08-21 10:23:05,467 - INFO - Update id=792260816 is handled. Duration 505 ms by bot id=6235250605
+2024-08-21 10:23:11,108 - INFO - Received message from 964635576: /statistics
+2024-08-21 10:23:12,162 - INFO - Update id=792260817 is handled. Duration 1057 ms by bot id=6235250605

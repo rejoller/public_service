@@ -4,7 +4,7 @@ from aiogram.types import CallbackQuery
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from utils.text_messages  import CONTACTS_TEXT
-from kb.feedback_1_menu import feedback_markup
+
 
 
 router = Router()
