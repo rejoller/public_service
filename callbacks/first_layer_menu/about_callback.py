@@ -1,7 +1,6 @@
 import logging
 from aiogram import F, Router, Bot
 from aiogram.types import CallbackQuery
-from sqlalchemy.ext.asyncio import AsyncSession
 
 from users.click_manager import ClickManager
 from utils.text_messages  import ABOUT_TEXT

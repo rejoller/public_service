@@ -1,7 +1,4 @@
-from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-
-
 
 
 contacts_and_menu_markup = InlineKeyboardMarkup(inline_keyboard=[

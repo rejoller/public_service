@@ -1,4 +1,4 @@
-from aiogram import Router, F
+from aiogram import Router
 
 
 
@@ -30,9 +30,4 @@ def setup_routers() -> Router:
     router.include_router(support.router)
     router.include_router(statistics.router)
     
-    
-
-    
-    
-
     return router

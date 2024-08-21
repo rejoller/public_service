@@ -9,7 +9,7 @@ from logger.logging_middleware import LoggingMiddleware
 from handlers import setup_routers
 
 from database.db import DataBaseSession
-from database.engine import create_db, session_maker, drop_db
+from database.engine import create_db, session_maker
 
 
 storage = RedisStorage.from_url(REDIS_URL)

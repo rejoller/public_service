@@ -2648,3 +2648,14 @@ UnboundLocalError: cannot access local variable 'df_1' where it is not associate
 2024-08-21 10:23:05,467 - INFO - Update id=792260816 is handled. Duration 505 ms by bot id=6235250605
 2024-08-21 10:23:11,108 - INFO - Received message from 964635576: /statistics
 2024-08-21 10:23:12,162 - INFO - Update id=792260817 is handled. Duration 1057 ms by bot id=6235250605
+2024-08-21 12:21:16,394 - INFO - Start polling
+2024-08-21 12:21:16,531 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-21 12:21:21,237 - INFO - Received message from 964635576: /start
+2024-08-21 12:21:21,720 - INFO - Update id=792260818 is handled. Duration 575 ms by bot id=6235250605
+2024-08-21 12:21:23,731 - INFO - Update id=792260819 is handled. Duration 347 ms by bot id=6235250605
+2024-08-21 12:21:25,589 - INFO - Update id=792260820 is handled. Duration 322 ms by bot id=6235250605
+2024-08-21 12:21:29,376 - INFO - Received message from 964635576: /statistics
+2024-08-21 12:21:29,784 - INFO - Update id=792260821 is handled. Duration 408 ms by bot id=6235250605
+2024-08-21 12:30:15,207 - WARNING - Received SIGINT signal
+2024-08-21 12:30:15,215 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-21 12:30:15,216 - INFO - Polling stopped
