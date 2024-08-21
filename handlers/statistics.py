@@ -58,7 +58,7 @@ async def handle_statistics(message: Message, state: FSMContext, session: AsyncS
     df.to_excel(writer, index=False, sheet_name='Пользователи')
     worksheet = writer.sheets['Пользователи']
     for i, col in enumerate(df.columns):
-        width = max(df[col].apply(lambda x: len(str(x))).max(), len(col))+2
+        width = max(df[col].apply(lambda x: len(str(x))).max(), len(col)) + 2
         worksheet.set_column(i, i, width)
         
         
