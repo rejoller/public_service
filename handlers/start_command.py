@@ -12,9 +12,7 @@ from kb.main_menu import markup
 router = Router()
 
 
-
-
-@router.message(CommandStart(), F.chat.type == 'private')
+@router.message(CommandStart(), F.chat.type == "private")
 async def handle_start(message: Message, session: AsyncSession):
     user_manager = UserManager(session)
     user_data = user_manager.extract_user_data_from_message(message)

@@ -12,9 +12,12 @@ def setup_routers() -> Router:
     from callbacks.first_layer_menu import (about_callback, criteries_callback, results,
         calendar_text, steps_callback)
     
+    from support import usermode, adminmode
     
     router = Router()
     # router.include_router(help_command.router)
+    router.include_router(usermode.router)
+    router.include_router(adminmode.router)
     router.include_router(start_command.router)
     router.include_router(about_callback.router)
     router.include_router(criteries_callback.router)

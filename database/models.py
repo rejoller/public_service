@@ -26,16 +26,16 @@ class Users(Base):
     
 class First_layer(Base):
     __tablename__ = 'first_layer'
-    first_layer_id: Mapped[int] = mapped_column(BIGINT, primary_key=True, autoincrement=True)
-    user_id: Mapped[int] = mapped_column(BIGINT, ForeignKey('users.user_id'), autoincrement=True)
+    first_layer_id: Mapped[int] = mapped_column(BIGINT, primary_key=True,autoincrement=True)  # noqa: E501
+    user_id: Mapped[int] = mapped_column(BIGINT, ForeignKey('users.user_id'), autoincrement=True)  # noqa: E501
     click_time: Mapped[DateTime] = mapped_column(TIMESTAMP)
     callback: Mapped[str] = mapped_column(String(255))
     
     
 class Success_clicks(Base):
     __tablename__ = 'success_clicks'
-    success_click_id: Mapped[int] = mapped_column(BIGINT, primary_key=True, autoincrement=True)
-    user_id: Mapped[int] = mapped_column(BIGINT, ForeignKey('users.user_id'), autoincrement=True)
+    success_click_id: Mapped[int] = mapped_column(BIGINT, primary_key=True, autoincrement=True)  # noqa: E501
+    user_id: Mapped[int] = mapped_column(BIGINT, ForeignKey('users.user_id'), autoincrement=True)  # noqa: E501
     click_time: Mapped[DateTime] = mapped_column(TIMESTAMP)
     
     
