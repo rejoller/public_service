@@ -6,6 +6,6 @@ my_account*
 *.ipynb
 __pycache__/
 utils/__pycache__/
-users_data.csv
+*.csv
 bot.log
-Статистика.xlsx
+*.xlsx
