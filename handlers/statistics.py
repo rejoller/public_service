@@ -9,11 +9,13 @@ from database.models import First_layer, Success_clicks, Users
 
 import pandas as pd
 
+from filters.admin_filter import AdminFilter
+
 
 router = Router()
 
 
-@router.message(Command("statistics"), F.chat.type == "private")
+@router.message(Command("statistics"), F.chat.type == "private", AdminFilter())
 async def handle_statistics(message: Message, state: FSMContext, session: AsyncSession):
     stats_query = select(
         Users.user_id,
@@ -129,3 +131,7 @@ async def handle_statistics(message: Message, state: FSMContext, session: AsyncS
     await message.answer_document(
         document=FSInputFile("Статистика.xlsx"), caption=caption, parse_mode="HTML"
     )
+
+@router.message(Command("statistics"), F.chat.type == "private", ~AdminFilter())
+async def handle_not_allowed_to_statistics(message: Message):
+    await message.answer("У вас нет прав на просмотр статистики")
