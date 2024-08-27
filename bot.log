@@ -3437,3 +3437,729 @@ AttributeError: 'Update' object has no attribute 'text'
 2024-08-22 09:50:59,834 - WARNING - Received SIGINT signal
 2024-08-22 09:50:59,835 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
 2024-08-22 09:50:59,835 - INFO - Polling stopped
+2024-08-26 16:31:59,060 - INFO - Start polling
+2024-08-26 16:31:59,167 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-26 16:32:03,419 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-26 16:32:03,419 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6235250605)
+2024-08-26 16:32:08,951 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-26 16:32:08,951 - WARNING - Sleep for 1.416781 seconds and try again... (tryings = 1, bot id = 6235250605)
+2024-08-26 16:32:15,407 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-26 16:32:15,407 - WARNING - Sleep for 1.856710 seconds and try again... (tryings = 2, bot id = 6235250605)
+2024-08-26 16:32:21,546 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-26 16:32:21,547 - WARNING - Sleep for 2.429008 seconds and try again... (tryings = 3, bot id = 6235250605)
+2024-08-26 16:32:28,611 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-08-26 16:32:28,613 - WARNING - Sleep for 3.096096 seconds and try again... (tryings = 4, bot id = 6235250605)
+2024-08-26 16:32:37,387 - WARNING - Received SIGINT signal
+2024-08-26 16:32:37,387 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-26 16:32:37,387 - INFO - Polling stopped
+2024-08-26 16:32:40,059 - INFO - Start polling
+2024-08-26 16:32:40,165 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-26 16:32:41,328 - INFO - Received message from 964635576: /start
+2024-08-26 16:32:41,768 - INFO - Update id=792261055 is handled. Duration 443 ms by bot id=6235250605
+2024-08-26 16:47:19,164 - WARNING - Received SIGINT signal
+2024-08-26 16:47:19,166 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-26 16:47:19,167 - INFO - Polling stopped
+2024-08-26 16:47:22,116 - INFO - Start polling
+2024-08-26 16:47:22,228 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-26 16:47:30,724 - INFO - Received message from 964635576: /start
+2024-08-26 16:47:31,138 - INFO - Update id=792261056 is handled. Duration 416 ms by bot id=6235250605
+2024-08-26 16:47:32,953 - INFO - Update id=792261057 is handled. Duration 306 ms by bot id=6235250605
+2024-08-26 16:47:34,610 - INFO - Received message from 964635576: /start
+2024-08-26 16:47:34,785 - INFO - Update id=792261058 is handled. Duration 191 ms by bot id=6235250605
+2024-08-26 16:47:40,126 - INFO - Update id=792261059 is not handled. Duration 3 ms by bot id=6235250605
+2024-08-26 16:50:17,492 - WARNING - Received SIGINT signal
+2024-08-26 16:50:17,493 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-26 16:50:17,493 - INFO - Polling stopped
+2024-08-26 16:50:21,834 - INFO - Start polling
+2024-08-26 16:50:21,945 - INFO - Run polling for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-26 16:50:25,368 - INFO - Received message from 964635576: /start
+2024-08-26 16:50:25,820 - INFO - Update id=792261060 is handled. Duration 454 ms by bot id=6235250605
+2024-08-26 16:50:43,168 - INFO - Received message from 964635576: None
+2024-08-26 16:50:43,766 - INFO - Update id=792261061 is handled. Duration 600 ms by bot id=6235250605
+2024-08-26 16:51:05,263 - INFO - Received message from 964635576: None
+2024-08-26 16:51:05,926 - INFO - Update id=792261062 is handled. Duration 666 ms by bot id=6235250605
+2024-08-26 16:51:13,768 - INFO - Received message from 964635576: None
+2024-08-26 16:51:14,027 - INFO - Update id=792261063 is handled. Duration 259 ms by bot id=6235250605
+2024-08-26 16:51:20,912 - INFO - Received message from 964635576: None
+2024-08-26 16:51:21,193 - INFO - Update id=792261064 is handled. Duration 285 ms by bot id=6235250605
+2024-08-26 16:51:27,268 - INFO - Received message from 964635576: None
+2024-08-26 16:51:27,448 - INFO - Update id=792261065 is handled. Duration 181 ms by bot id=6235250605
+2024-08-26 16:51:37,719 - INFO - Received message from 964635576: None
+2024-08-26 16:51:37,878 - INFO - Update id=792261066 is handled. Duration 159 ms by bot id=6235250605
+2024-08-26 17:20:37,052 - WARNING - Received SIGINT signal
+2024-08-26 17:20:37,055 - INFO - Polling stopped for bot @MCR_Expert_bot id=6235250605 - 'MCR_test'
+2024-08-26 17:20:37,056 - INFO - Polling stopped
+2024-08-26 17:32:22,638 - INFO - Start polling
+2024-08-26 17:32:22,745 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:32:29,679 - INFO - Received message from 964635576: /start
+2024-08-26 17:32:30,355 - INFO - Update id=540124700 is handled. Duration 679 ms by bot id=6992423978
+2024-08-26 17:33:26,356 - INFO - Received message from 964635576: None
+2024-08-26 17:33:26,720 - INFO - Update id=540124701 is handled. Duration 365 ms by bot id=6992423978
+2024-08-26 17:33:33,995 - INFO - Received message from 964635576: None
+2024-08-26 17:33:34,158 - INFO - Update id=540124702 is handled. Duration 165 ms by bot id=6992423978
+2024-08-26 17:33:43,398 - INFO - Received message from 964635576: None
+2024-08-26 17:33:43,569 - INFO - Update id=540124703 is handled. Duration 171 ms by bot id=6992423978
+2024-08-26 17:33:53,074 - INFO - Received message from 964635576: None
+2024-08-26 17:33:53,287 - INFO - Update id=540124704 is handled. Duration 217 ms by bot id=6992423978
+2024-08-26 17:34:01,427 - INFO - Received message from 964635576: None
+2024-08-26 17:34:01,594 - INFO - Update id=540124705 is handled. Duration 174 ms by bot id=6992423978
+2024-08-26 17:34:07,975 - INFO - Received message from 964635576: None
+2024-08-26 17:34:08,192 - INFO - Update id=540124706 is handled. Duration 218 ms by bot id=6992423978
+2024-08-26 17:37:00,963 - WARNING - Received SIGINT signal
+2024-08-26 17:37:00,965 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:37:00,965 - INFO - Polling stopped
+2024-08-26 17:37:04,016 - INFO - Start polling
+2024-08-26 17:37:04,125 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:37:08,365 - INFO - Update id=540124707 is not handled. Duration 4 ms by bot id=6992423978
+2024-08-26 17:37:24,654 - INFO - Received message from 964635576: /start
+2024-08-26 17:37:25,170 - INFO - Update id=540124708 is handled. Duration 518 ms by bot id=6992423978
+2024-08-26 17:37:26,810 - INFO - Update id=540124709 is not handled. Duration 3 ms by bot id=6992423978
+2024-08-26 17:37:33,736 - INFO - Update id=540124710 is handled. Duration 532 ms by bot id=6992423978
+2024-08-26 17:37:38,481 - INFO - Received message from 964635576: /start
+2024-08-26 17:37:38,658 - INFO - Update id=540124711 is handled. Duration 179 ms by bot id=6992423978
+2024-08-26 17:37:41,046 - INFO - Update id=540124712 is handled. Duration 291 ms by bot id=6992423978
+2024-08-26 17:37:46,426 - INFO - Received message from 964635576: /start
+2024-08-26 17:37:46,612 - INFO - Update id=540124713 is handled. Duration 189 ms by bot id=6992423978
+2024-08-26 17:37:49,345 - INFO - Update id=540124714 is handled. Duration 348 ms by bot id=6992423978
+2024-08-26 17:37:51,594 - INFO - Received message from 964635576: /start
+2024-08-26 17:37:51,845 - INFO - Update id=540124715 is handled. Duration 252 ms by bot id=6992423978
+2024-08-26 17:37:53,014 - INFO - Update id=540124716 is not handled. Duration 2 ms by bot id=6992423978
+2024-08-26 17:37:58,265 - INFO - Update id=540124717 is handled. Duration 416 ms by bot id=6992423978
+2024-08-26 17:38:01,439 - INFO - Received message from 964635576: /start
+2024-08-26 17:38:01,760 - INFO - Update id=540124718 is handled. Duration 323 ms by bot id=6992423978
+2024-08-26 17:38:03,554 - INFO - Update id=540124719 is handled. Duration 545 ms by bot id=6992423978
+2024-08-26 17:38:05,443 - INFO - Received message from 964635576: /start
+2024-08-26 17:38:05,635 - INFO - Update id=540124720 is handled. Duration 194 ms by bot id=6992423978
+2024-08-26 17:38:09,810 - INFO - Update id=540124721 is handled. Duration 617 ms by bot id=6992423978
+2024-08-26 17:38:11,243 - INFO - Received message from 964635576: /start
+2024-08-26 17:38:11,626 - INFO - Update id=540124722 is handled. Duration 385 ms by bot id=6992423978
+2024-08-26 17:40:20,493 - WARNING - Received SIGINT signal
+2024-08-26 17:40:20,495 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:40:20,495 - INFO - Polling stopped
+2024-08-26 17:40:42,793 - INFO - Start polling
+2024-08-26 17:40:42,904 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:40:46,312 - INFO - Received message from 964635576: /start
+2024-08-26 17:40:46,665 - INFO - Update id=540124723 is handled. Duration 355 ms by bot id=6992423978
+2024-08-26 17:40:51,585 - INFO - Update id=540124724 is handled. Duration 422 ms by bot id=6992423978
+2024-08-26 17:41:21,868 - WARNING - Received SIGINT signal
+2024-08-26 17:41:21,869 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:41:21,869 - INFO - Polling stopped
+2024-08-26 17:41:24,338 - INFO - Start polling
+2024-08-26 17:41:24,451 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:41:27,574 - INFO - Received message from 964635576: /start
+2024-08-26 17:41:28,070 - INFO - Update id=540124725 is handled. Duration 500 ms by bot id=6992423978
+2024-08-26 17:41:30,403 - INFO - Update id=540124726 is handled. Duration 399 ms by bot id=6992423978
+2024-08-26 17:43:43,074 - WARNING - Received SIGINT signal
+2024-08-26 17:43:43,076 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:43:43,076 - INFO - Polling stopped
+2024-08-26 17:43:46,214 - INFO - Start polling
+2024-08-26 17:43:46,351 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:43:47,818 - INFO - Received message from 964635576: /start
+2024-08-26 17:43:48,362 - INFO - Update id=540124727 is handled. Duration 546 ms by bot id=6992423978
+2024-08-26 17:43:50,001 - INFO - Update id=540124728 is not handled. Duration 3 ms by bot id=6992423978
+2024-08-26 17:43:53,484 - INFO - Update id=540124729 is handled. Duration 294 ms by bot id=6992423978
+2024-08-26 17:43:57,002 - INFO - Update id=540124730 is handled. Duration 441 ms by bot id=6992423978
+2024-08-26 17:44:05,782 - INFO - Received message from 964635576: /start
+2024-08-26 17:44:06,646 - INFO - Update id=540124731 is handled. Duration 866 ms by bot id=6992423978
+2024-08-26 17:44:12,102 - INFO - Update id=540124732 is handled. Duration 600 ms by bot id=6992423978
+2024-08-26 17:44:16,980 - INFO - Update id=540124733 is handled. Duration 306 ms by bot id=6992423978
+2024-08-26 17:44:28,754 - INFO - Received message from 964635576: /start
+2024-08-26 17:44:28,989 - INFO - Update id=540124734 is handled. Duration 237 ms by bot id=6992423978
+2024-08-26 17:44:32,922 - INFO - Update id=540124735 is handled. Duration 498 ms by bot id=6992423978
+2024-08-26 17:44:35,475 - INFO - Update id=540124736 is handled. Duration 318 ms by bot id=6992423978
+2024-08-26 17:46:53,066 - WARNING - Received SIGINT signal
+2024-08-26 17:46:53,067 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:46:53,068 - INFO - Polling stopped
+2024-08-26 17:47:12,380 - INFO - Start polling
+2024-08-26 17:47:12,492 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:47:17,756 - INFO - Received message from 964635576: /start
+2024-08-26 17:47:18,178 - INFO - Update id=540124737 is handled. Duration 424 ms by bot id=6992423978
+2024-08-26 17:47:20,415 - INFO - Update id=540124738 is handled. Duration 531 ms by bot id=6992423978
+2024-08-26 17:47:22,476 - INFO - Update id=540124739 is handled. Duration 405 ms by bot id=6992423978
+2024-08-26 17:49:17,152 - WARNING - Received SIGINT signal
+2024-08-26 17:49:17,153 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:49:17,154 - INFO - Polling stopped
+2024-08-26 17:49:19,784 - INFO - Start polling
+2024-08-26 17:49:19,898 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:49:21,285 - INFO - Received message from 964635576: /start
+2024-08-26 17:49:21,669 - INFO - Update id=540124740 is handled. Duration 386 ms by bot id=6992423978
+2024-08-26 17:49:23,307 - INFO - Update id=540124741 is handled. Duration 466 ms by bot id=6992423978
+2024-08-26 17:49:25,175 - INFO - Update id=540124742 is handled. Duration 398 ms by bot id=6992423978
+2024-08-26 17:49:33,507 - WARNING - Received SIGINT signal
+2024-08-26 17:49:33,508 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:49:33,508 - INFO - Polling stopped
+2024-08-26 17:49:36,017 - INFO - Start polling
+2024-08-26 17:49:36,139 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:49:36,953 - INFO - Received message from 964635576: /start
+2024-08-26 17:49:37,871 - INFO - Update id=540124743 is handled. Duration 920 ms by bot id=6992423978
+2024-08-26 17:49:40,138 - INFO - Update id=540124744 is handled. Duration 546 ms by bot id=6992423978
+2024-08-26 17:49:41,770 - INFO - Update id=540124745 is handled. Duration 230 ms by bot id=6992423978
+2024-08-26 17:49:49,864 - INFO - Update id=540124746 is handled. Duration 256 ms by bot id=6992423978
+2024-08-26 17:49:53,730 - INFO - Update id=540124747 is handled. Duration 459 ms by bot id=6992423978
+2024-08-26 17:49:55,466 - INFO - Update id=540124748 is handled. Duration 142 ms by bot id=6992423978
+2024-08-26 17:50:03,150 - INFO - Update id=540124749 is handled. Duration 481 ms by bot id=6992423978
+2024-08-26 17:50:05,358 - INFO - Update id=540124750 is handled. Duration 456 ms by bot id=6992423978
+2024-08-26 17:50:06,895 - INFO - Update id=540124751 is handled. Duration 266 ms by bot id=6992423978
+2024-08-26 17:50:08,698 - INFO - Update id=540124752 is handled. Duration 321 ms by bot id=6992423978
+2024-08-26 17:50:10,758 - INFO - Update id=540124753 is handled. Duration 272 ms by bot id=6992423978
+2024-08-26 17:50:12,636 - INFO - Update id=540124754 is handled. Duration 422 ms by bot id=6992423978
+2024-08-26 17:50:14,853 - INFO - Update id=540124755 is handled. Duration 441 ms by bot id=6992423978
+2024-08-26 17:55:36,242 - INFO - Received message from 964635576: /start
+2024-08-26 17:55:36,622 - INFO - Update id=540124756 is handled. Duration 383 ms by bot id=6992423978
+2024-08-26 17:58:20,755 - WARNING - Received SIGINT signal
+2024-08-26 17:58:20,757 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:58:20,758 - INFO - Polling stopped
+2024-08-26 17:58:23,395 - INFO - Start polling
+2024-08-26 17:58:23,504 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-26 17:58:25,192 - INFO - Received message from 964635576: /start
+2024-08-26 17:58:25,613 - INFO - Update id=540124757 is handled. Duration 424 ms by bot id=6992423978
+2024-08-26 17:58:29,814 - INFO - Update id=540124758 is handled. Duration 447 ms by bot id=6992423978
+2024-08-26 17:58:32,212 - INFO - Update id=540124759 is handled. Duration 487 ms by bot id=6992423978
+2024-08-26 17:58:33,977 - INFO - Received message from 964635576: /start
+2024-08-26 17:58:34,157 - INFO - Update id=540124760 is handled. Duration 181 ms by bot id=6992423978
+2024-08-26 17:58:36,421 - INFO - Update id=540124761 is handled. Duration 398 ms by bot id=6992423978
+2024-08-26 17:58:39,189 - INFO - Update id=540124762 is handled. Duration 763 ms by bot id=6992423978
+2024-08-26 17:58:41,264 - INFO - Update id=540124763 is handled. Duration 454 ms by bot id=6992423978
+2024-08-26 17:58:43,400 - INFO - Update id=540124764 is handled. Duration 276 ms by bot id=6992423978
+2024-08-26 17:58:45,957 - INFO - Update id=540124765 is handled. Duration 293 ms by bot id=6992423978
+2024-08-26 17:58:48,408 - INFO - Update id=540124766 is handled. Duration 469 ms by bot id=6992423978
+2024-08-26 17:58:49,754 - INFO - Received message from 964635576: /start
+2024-08-26 17:58:49,944 - INFO - Update id=540124767 is handled. Duration 192 ms by bot id=6992423978
+2024-08-26 17:58:51,644 - INFO - Update id=540124768 is handled. Duration 540 ms by bot id=6992423978
+2024-08-26 17:58:54,763 - INFO - Update id=540124769 is handled. Duration 577 ms by bot id=6992423978
+2024-08-26 17:58:56,918 - INFO - Update id=540124770 is not handled. Duration 3 ms by bot id=6992423978
+2024-08-26 17:58:58,515 - INFO - Update id=540124771 is handled. Duration 267 ms by bot id=6992423978
+2024-08-26 19:33:59,134 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 19:33:59,134 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-26 19:39:44,390 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 19:39:44,392 - WARNING - Sleep for 1.397733 seconds and try again... (tryings = 1, bot id = 6992423978)
+2024-08-26 19:39:56,176 - INFO - Connection established (tryings = 2, bot id = 6992423978)
+2024-08-26 19:58:48,574 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 19:58:48,575 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-26 19:58:59,985 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-26 20:20:24,196 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 20:20:24,200 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-26 20:20:35,543 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-26 20:41:10,256 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 20:41:10,260 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-26 20:41:21,561 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-26 20:58:23,692 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 20:58:23,694 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-26 20:58:35,039 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-26 21:31:41,751 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 21:31:41,753 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-26 21:31:53,117 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-26 22:15:12,263 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 22:15:12,264 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-26 22:15:23,595 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-26 22:47:58,790 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 22:47:58,791 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-26 23:06:01,326 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 23:06:01,327 - WARNING - Sleep for 1.539934 seconds and try again... (tryings = 1, bot id = 6992423978)
+2024-08-26 23:06:13,228 - INFO - Connection established (tryings = 2, bot id = 6992423978)
+2024-08-26 23:52:36,771 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-26 23:52:36,772 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-26 23:52:48,158 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 00:11:50,060 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 00:11:50,062 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 00:12:01,395 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 00:30:24,018 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 00:30:24,019 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 00:30:35,341 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 01:07:49,799 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 01:07:49,800 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 01:08:01,438 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 01:26:10,973 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 01:26:10,975 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 01:26:22,256 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 02:24:17,334 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 02:24:17,336 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 02:24:28,707 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 02:42:43,762 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 02:42:43,762 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 02:42:55,174 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 03:00:52,744 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 03:00:52,746 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 03:01:04,124 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 03:37:10,896 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 03:37:10,897 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 03:37:22,217 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 03:56:49,212 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 03:56:49,214 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 03:57:00,609 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 04:17:33,482 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 04:17:33,483 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 04:17:44,899 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 04:35:15,855 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 04:35:15,855 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 04:35:27,264 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 04:53:17,890 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 04:53:17,890 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 04:53:29,297 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 05:27:02,521 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 05:27:02,522 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 05:27:13,907 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 05:45:36,159 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 05:45:36,160 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 05:45:47,532 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 06:04:31,944 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 06:04:31,945 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 06:04:43,256 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 06:23:03,955 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 54] Connection reset by peer
+2024-08-27 06:23:03,955 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 06:23:15,267 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 06:42:00,030 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 06:42:00,031 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 06:42:11,382 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 07:00:34,349 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 07:00:34,350 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 07:00:45,676 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 07:06:24,832 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 07:06:24,833 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 07:06:36,147 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 07:24:23,984 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 07:24:23,985 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 07:24:35,332 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 07:42:31,275 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 07:42:31,277 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 07:42:42,604 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 08:58:16,249 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-08-27 08:58:16,250 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6992423978)
+2024-08-27 08:58:28,086 - INFO - Connection established (tryings = 1, bot id = 6992423978)
+2024-08-27 08:59:34,760 - WARNING - Received SIGINT signal
+2024-08-27 08:59:34,764 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 08:59:34,764 - INFO - Polling stopped
+2024-08-27 08:59:39,621 - INFO - Start polling
+2024-08-27 08:59:39,737 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:00:03,985 - WARNING - Received SIGINT signal
+2024-08-27 09:00:03,987 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:00:03,987 - INFO - Polling stopped
+2024-08-27 09:07:05,664 - INFO - Start polling
+2024-08-27 09:07:05,780 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:07:15,204 - INFO - Received message from 964635576: None
+2024-08-27 09:07:15,711 - INFO - Update id=540124772 is handled. Duration 509 ms by bot id=6992423978
+2024-08-27 09:07:26,406 - WARNING - Received SIGINT signal
+2024-08-27 09:07:26,408 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:07:26,408 - INFO - Polling stopped
+2024-08-27 09:07:32,494 - INFO - Start polling
+2024-08-27 09:07:32,598 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:07:37,820 - INFO - Received message from 964635576: /start
+2024-08-27 09:07:38,242 - INFO - Update id=540124773 is handled. Duration 424 ms by bot id=6992423978
+2024-08-27 09:07:39,803 - INFO - Update id=540124774 is not handled. Duration 3 ms by bot id=6992423978
+2024-08-27 09:07:42,944 - INFO - Update id=540124775 is handled. Duration 283 ms by bot id=6992423978
+2024-08-27 09:07:49,838 - INFO - Received message from 964635576: /support
+2024-08-27 09:07:49,976 - INFO - Update id=540124776 is handled. Duration 141 ms by bot id=6992423978
+2024-08-27 09:07:53,570 - INFO - Update id=540124777 is handled. Duration 296 ms by bot id=6992423978
+2024-08-27 09:08:17,410 - INFO - Received message from 964635576: None
+2024-08-27 09:08:17,749 - INFO - Update id=540124778 is handled. Duration 340 ms by bot id=6992423978
+2024-08-27 09:10:08,952 - WARNING - Received SIGINT signal
+2024-08-27 09:10:08,954 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:10:08,954 - INFO - Polling stopped
+2024-08-27 09:12:44,409 - INFO - Start polling
+2024-08-27 09:12:44,549 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:12:50,316 - INFO - Received message from 964635576: /start
+2024-08-27 09:12:50,651 - INFO - Update id=540124779 is not handled. Duration 336 ms by bot id=6992423978
+2024-08-27 09:12:50,651 - ERROR - Cause exception while process update id=540124779 by bot id=6992423978
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/support/usermode.py", line 17, in handle_report
+    await bot.send_message(chat_id = ADMINS_GROUP_CHAT_ID, text = message.html_text + f"\n\n#id{message.from_user.id}", parse_mode="HTML")
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 2915, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2024-08-27 09:13:11,245 - INFO - Received message from 964635576: /start
+2024-08-27 09:13:11,641 - INFO - Update id=540124780 is not handled. Duration 396 ms by bot id=6992423978
+2024-08-27 09:13:11,641 - ERROR - Cause exception while process update id=540124780 by bot id=6992423978
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/support/usermode.py", line 17, in handle_report
+    await bot.send_message(chat_id = ADMINS_GROUP_CHAT_ID, text = message.html_text + f"\n\n#id{message.from_user.id}", parse_mode="HTML")
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 2915, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2024-08-27 09:13:29,890 - WARNING - Received SIGINT signal
+2024-08-27 09:13:29,891 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:13:29,891 - INFO - Polling stopped
+2024-08-27 09:13:32,956 - INFO - Start polling
+2024-08-27 09:13:33,136 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:13:38,622 - INFO - Received message from 964635576: /start
+2024-08-27 09:13:38,956 - INFO - Update id=540124781 is not handled. Duration 336 ms by bot id=6992423978
+2024-08-27 09:13:38,957 - ERROR - Cause exception while process update id=540124781 by bot id=6992423978
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/support/usermode.py", line 17, in handle_report
+    await bot.send_message(chat_id = ADMINS_GROUP_CHAT_ID, text = message.html_text + f"\n\n#id{message.from_user.id}", parse_mode="HTML")
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 2915, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2024-08-27 09:13:53,337 - WARNING - Received SIGINT signal
+2024-08-27 09:13:53,338 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:13:53,339 - INFO - Polling stopped
+2024-08-27 09:17:03,535 - INFO - Start polling
+2024-08-27 09:17:03,653 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:17:09,806 - INFO - Received message from 964635576: /start
+2024-08-27 09:17:10,150 - INFO - Update id=540124782 is not handled. Duration 346 ms by bot id=6992423978
+2024-08-27 09:17:10,150 - ERROR - Cause exception while process update id=540124782 by bot id=6992423978
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/database/db.py", line 20, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/logger/logging_middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/support/usermode.py", line 17, in handle_report
+    await bot.send_message(chat_id = ADMINS_GROUP_CHAT_ID, text = message.html_text + f"\n\n#id{message.from_user.id}", parse_mode="HTML")
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 2915, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rejoller/public_service/public_service/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2024-08-27 09:17:15,650 - INFO - Update id=540124783 is handled. Duration 265 ms by bot id=6992423978
+2024-08-27 09:17:17,608 - INFO - Received message from 964635576: /start
+2024-08-27 09:17:17,823 - INFO - Update id=540124784 is handled. Duration 219 ms by bot id=6992423978
+2024-08-27 09:17:26,824 - INFO - Received message from 964635576: /support
+2024-08-27 09:17:27,001 - INFO - Update id=540124785 is handled. Duration 181 ms by bot id=6992423978
+2024-08-27 09:17:28,899 - INFO - Update id=540124786 is handled. Duration 304 ms by bot id=6992423978
+2024-08-27 09:17:34,029 - INFO - Update id=540124787 is not handled. Duration 3 ms by bot id=6992423978
+2024-08-27 09:17:43,207 - INFO - Received message from 964635576: /start
+2024-08-27 09:17:43,373 - INFO - Update id=540124788 is handled. Duration 166 ms by bot id=6992423978
+2024-08-27 09:17:45,450 - INFO - Update id=540124789 is handled. Duration 346 ms by bot id=6992423978
+2024-08-27 09:17:47,502 - INFO - Update id=540124790 is handled. Duration 394 ms by bot id=6992423978
+2024-08-27 09:18:03,878 - WARNING - Received SIGINT signal
+2024-08-27 09:18:03,879 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:18:03,879 - INFO - Polling stopped
+2024-08-27 09:18:07,510 - INFO - Start polling
+2024-08-27 09:18:07,618 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:18:09,445 - INFO - Received message from 964635576: /start
+2024-08-27 09:18:10,082 - INFO - Update id=540124791 is handled. Duration 639 ms by bot id=6992423978
+2024-08-27 09:18:11,952 - INFO - Update id=540124792 is handled. Duration 344 ms by bot id=6992423978
+2024-08-27 09:18:15,318 - INFO - Update id=540124793 is handled. Duration 260 ms by bot id=6992423978
+2024-08-27 09:18:30,311 - WARNING - Received SIGINT signal
+2024-08-27 09:18:30,313 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:18:30,313 - INFO - Polling stopped
+2024-08-27 09:18:33,106 - INFO - Start polling
+2024-08-27 09:18:33,219 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:18:34,978 - INFO - Received message from 964635576: /start
+2024-08-27 09:18:35,335 - INFO - Update id=540124794 is handled. Duration 359 ms by bot id=6992423978
+2024-08-27 09:19:54,808 - WARNING - Received SIGINT signal
+2024-08-27 09:19:54,809 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:19:54,809 - INFO - Polling stopped
+2024-08-27 09:19:58,122 - INFO - Start polling
+2024-08-27 09:19:58,231 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:20:01,340 - INFO - Received message from 964635576: /start
+2024-08-27 09:20:01,779 - INFO - Update id=540124795 is handled. Duration 441 ms by bot id=6992423978
+2024-08-27 09:20:08,788 - INFO - Update id=540124796 is handled. Duration 398 ms by bot id=6992423978
+2024-08-27 09:20:11,367 - INFO - Update id=540124797 is handled. Duration 265 ms by bot id=6992423978
+2024-08-27 09:20:15,827 - INFO - Update id=540124798 is handled. Duration 279 ms by bot id=6992423978
+2024-08-27 09:20:17,914 - INFO - Update id=540124799 is handled. Duration 293 ms by bot id=6992423978
+2024-08-27 09:20:20,191 - INFO - Update id=540124800 is handled. Duration 334 ms by bot id=6992423978
+2024-08-27 09:20:21,652 - INFO - Received message from 964635576: /start
+2024-08-27 09:20:21,818 - INFO - Update id=540124801 is handled. Duration 167 ms by bot id=6992423978
+2024-08-27 09:20:23,363 - INFO - Update id=540124802 is not handled. Duration 3 ms by bot id=6992423978
+2024-08-27 09:20:26,186 - INFO - Update id=540124803 is handled. Duration 526 ms by bot id=6992423978
+2024-08-27 09:20:28,147 - INFO - Update id=540124804 is handled. Duration 393 ms by bot id=6992423978
+2024-08-27 09:20:29,544 - INFO - Received message from 964635576: /start
+2024-08-27 09:20:29,716 - INFO - Update id=540124805 is handled. Duration 173 ms by bot id=6992423978
+2024-08-27 09:20:31,884 - INFO - Update id=540124806 is handled. Duration 250 ms by bot id=6992423978
+2024-08-27 09:20:35,011 - INFO - Update id=540124807 is handled. Duration 272 ms by bot id=6992423978
+2024-08-27 09:20:37,197 - INFO - Update id=540124808 is handled. Duration 271 ms by bot id=6992423978
+2024-08-27 09:20:39,659 - INFO - Update id=540124809 is handled. Duration 669 ms by bot id=6992423978
+2024-08-27 09:20:40,849 - INFO - Received message from 964635576: /start
+2024-08-27 09:20:41,169 - INFO - Update id=540124810 is handled. Duration 322 ms by bot id=6992423978
+2024-08-27 09:20:43,262 - INFO - Update id=540124811 is handled. Duration 589 ms by bot id=6992423978
+2024-08-27 09:21:38,747 - WARNING - Received SIGINT signal
+2024-08-27 09:21:38,748 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-08-27 09:21:38,748 - INFO - Polling stopped

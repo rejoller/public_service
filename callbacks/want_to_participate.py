@@ -14,12 +14,14 @@ router = Router()
 async def handle_waiting_for_choise(query: CallbackQuery, session: AsyncSession, bot: Bot):
     click_manager = ClickManager(session)
     message_id = query.message.message_id
-    if message_id:
-        try:
-            await bot.delete_message(chat_id=query.message.chat.id, message_id=message_id)
-        except Exception as e:
-            logging.info(f'не удалось удалить сообщение {e}')
+    
+    await bot.edit_message_caption(chat_id=query.message.chat.id, message_id=message_id, caption='Ссылка', reply_markup=markup)
+    # if message_id:
+    #     try:
+    #         await bot.delete_message(chat_id=query.message.chat.id, message_id=message_id)
+    #     except Exception as e:
+    #         logging.info(f'не удалось удалить сообщение {e}')
             
-    await query.message.answer(text="Ссылка на сайт", parse_mode='HTML', reply_markup=markup)
+    # await query.message.answer(text="Ссылка на сайт", parse_mode='HTML', reply_markup=markup)
     await click_manager.add_success_click(query.from_user.id)
 

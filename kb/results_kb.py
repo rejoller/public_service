@@ -16,13 +16,8 @@ results_markup = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="Есть вопросы, нужна дополнительная информация",
+                text="Дополнительная информация",
                 callback_data="ok_need_additional_info",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="Истории успеха резервистов", callback_data="success_story"
             )
         ],
         [

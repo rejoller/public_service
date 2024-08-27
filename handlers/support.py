@@ -6,7 +6,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 
 from users.user_states import Form
-from config import SUPPORT_IMG
+from utils.text_messages import SUPPORT_IMG
 
 router = Router()
 
