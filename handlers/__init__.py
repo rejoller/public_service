@@ -19,7 +19,7 @@ def setup_routers() -> Router:
     router = Router()
     # router.include_router(help_command.router)
     router.include_router(echo.router)
-    # router.include_router(want_to_participate.router)
+    router.include_router(want_to_participate.router)
     router.include_router(usermode.router)
     router.include_router(adminmode.router)
     router.include_router(start_command.router)

@@ -2,3 +2,7 @@ aiogram
 redis
 greenlet
 asyncpg
+sqlalchemy
+icecream
+pandas
+xlsxwriter

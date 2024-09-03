@@ -9,3 +9,4 @@ utils/__pycache__/
 *.csv
 bot.log
 *.xlsx
+database/db_config.py
