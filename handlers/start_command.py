@@ -19,4 +19,4 @@ async def handle_start(message: Message, session: AsyncSession, state: FSMContex
     user_manager = UserManager(session)
     user_data = user_manager.extract_user_data_from_message(message)
     await user_manager.add_user_if_not_exists(user_data)
-    await message.answer_photo(caption=START_TEXT, reply_markup=markup, photo=MAIN_MENU_PHOTO)
+    await message.answer_photo(reply_markup=markup, photo=MAIN_MENU_PHOTO)

@@ -4,17 +4,13 @@ from aiogram.types import CallbackQuery
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from users.click_manager import ClickManager
-from utils.text_messages  import RESULTS_TEXT, RESULTS_PHOTO
-
-
-from kb.result_kb2 import feedback_markup
-
-
+from utils.text_messages  import STEPS_TEXT, STEPS_PHOTO, RESULT_STEP
+from kb.feedback_1_menu import feedback_markup
 
 
 router = Router()
 
-@router.callback_query(F.data == 'results')
+@router.callback_query(F.data == 'result_steps')
 async def handle_waiting_for_choise(query: CallbackQuery, session: AsyncSession, bot: Bot):
 
     click_manager = ClickManager(session)
@@ -25,6 +21,7 @@ async def handle_waiting_for_choise(query: CallbackQuery, session: AsyncSession,
             await bot.delete_message(chat_id=query.message.chat.id, message_id=message_id)
         except Exception as e:
             logging.info(f'не удалось удалить сообщение {e}')
-    await query.message.answer_photo(parse_mode='HTML', reply_markup=feedback_markup, photo=RESULTS_PHOTO, show_caption_above_media= True)
+            
+    await query.message.answer_photo(parse_mode='HTML', reply_markup=feedback_markup, photo=RESULT_STEP, show_caption_above_media= True)
     await click_manager.add_first_layer_click(query.from_user.id, callback=query.data)
     

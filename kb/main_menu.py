@@ -5,7 +5,7 @@ markup = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="Губернаторский управленческий резерв", callback_data="reserve"
+                text="О резерве", callback_data="reserve"
             )
         ],
         [
@@ -16,7 +16,7 @@ markup = InlineKeyboardMarkup(
             )
         ],
         [InlineKeyboardButton(text="Критерии участия", callback_data="criteries")],
-        [InlineKeyboardButton(text="Этапы отбора", callback_data="steps")],
+        [InlineKeyboardButton(text="Этапы отбора", callback_data="first_step")],
         [
             InlineKeyboardButton(
                 text="Календарный график конкурса", callback_data="calendar"

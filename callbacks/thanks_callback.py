@@ -10,9 +10,7 @@ router = Router()
 
 
 @router.callback_query(F.data == "ok_no_interes")
-async def handle_waiting_for_choise(
-    query: CallbackQuery, session: AsyncSession, bot: Bot
-):
+async def handle_waiting_for_choise(query: CallbackQuery, session: AsyncSession, bot: Bot):
     message_id = query.message.message_id
     if message_id:
         try:
