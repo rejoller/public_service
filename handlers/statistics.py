@@ -34,30 +34,9 @@ async def handle_statistics(message: Message, state: FSMContext, session: AsyncS
         .join(Users, Users.user_id == First_layer.user_id)
         .order_by(First_layer.click_time)
     )
-    success_clicks_query = (
-        select(
-            Users.first_name, Users.last_name, Users.username, Success_clicks.click_time
-        )
-        .join(Users, Users.user_id == Success_clicks.user_id)
-        .order_by(Success_clicks.click_time)
-    )
 
-    result_2 = await session.execute(success_clicks_query)
-    result_2 = result_2.all()
-    df_2 = pd.DataFrame(result_2)
-    df_2["click_time"] = pd.to_datetime(
-        df_2["click_time"], dayfirst=True, format="%d.%m.%Y %H:%M:%S"
-    )
-    df_2["click_time"] = df_2["click_time"].dt.strftime("%d.%m.%Y %H:%M:%S")
-    df_2 = df_2.rename(
-        columns={
-            "first_name": "Имя",
-            "last_name": "Фамилия",
-            "username": "ID в Телеграм",
-            "click_time": "Время клика",
-        }
-    )
-    number_of_success_clicks = len(df_2)
+
+
 
     result_1 = await session.execute(first_layer_query)
     result_1 = result_1.all()
@@ -115,18 +94,11 @@ async def handle_statistics(message: Message, state: FSMContext, session: AsyncS
         width = max(df_1[col].apply(lambda x: len(str(x))).max(), len(col)) + 2
         worksheet.set_column(i, i, width)
 
-    df_2.to_excel(writer, index=False, sheet_name="Успешные клики")
-    worksheet = writer.sheets["Успешные клики"]
-    for i, col in enumerate(df_2.columns):
-        width = max(df_2[col].apply(lambda x: len(str(x))).max(), len(col)) + 2
-        worksheet.set_column(i, i, width)
+
 
     writer.close()
 
-    caption = (
-        f"Количество пользователей бота: <b>{number_of_users}</b>\n"
-        f"Успешных кликов: <b>{number_of_success_clicks}</b>"
-    )
+    caption = f"Количество пользователей бота: <b>{number_of_users}</b>\n"
 
     await message.answer_document(
         document=FSInputFile("Статистика.xlsx"), caption=caption, parse_mode="HTML"

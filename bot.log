@@ -5648,3 +5648,12 @@ aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat 
 2024-09-03 09:20:38,346 - WARNING - Received SIGINT signal
 2024-09-03 09:20:38,349 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
 2024-09-03 09:20:38,350 - INFO - Polling stopped
+2024-09-03 10:41:49,263 - INFO - Start polling
+2024-09-03 10:41:49,837 - INFO - Run polling for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-09-03 10:41:53,925 - INFO - Received message from 964635576: /start
+2024-09-03 10:41:54,831 - INFO - Update id=540125652 is handled. Duration 906 ms by bot id=6992423978
+2024-09-03 10:41:57,831 - INFO - Received message from 964635576: /statistics
+2024-09-03 10:41:59,052 - INFO - Update id=540125653 is handled. Duration 1222 ms by bot id=6992423978
+2024-09-03 10:42:03,346 - WARNING - Received SIGINT signal
+2024-09-03 10:42:03,348 - INFO - Polling stopped for bot @komandakraya24_bot id=6992423978 - 'komandakraya24Bot'
+2024-09-03 10:42:03,348 - INFO - Polling stopped
