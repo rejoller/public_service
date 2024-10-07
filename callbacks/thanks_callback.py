@@ -20,3 +20,4 @@ async def handle_waiting_for_choise(query: CallbackQuery, session: AsyncSession,
         except Exception as e:
             logging.info(f"не удалось удалить сообщение {e}")
     await query.message.answer(text=THANKS_TEXT, parse_mode="HTML")
+    await query.answer()

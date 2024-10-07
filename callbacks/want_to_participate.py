@@ -16,4 +16,4 @@ async def handle_waiting_for_choise(
     query: CallbackQuery, session: AsyncSession, bot: Bot):
     click_manager = ClickManager(session)
     await click_manager.add_success_click(query.from_user.id)
-    await query.answer(show_alert=True, text='Подача заявок завершена')
+    await query.answer(show_alert=True, text='Прием заявок завершился 6 октября в 23:59 (МСК)')

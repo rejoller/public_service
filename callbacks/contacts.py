@@ -21,4 +21,5 @@ async def handle_waiting_for_choise(query: CallbackQuery, session: AsyncSession,
             logging.info(f'не удалось удалить сообщение {e}')
         
     await query.message.answer_photo(parse_mode='HTML', photo=CONTACTS_PHOTO, reply_markup=markup)
+    await query.answer()
     

@@ -19,3 +19,4 @@ async def handle_waiting_for_choise(query: CallbackQuery, session: AsyncSession,
         except Exception as e:
             logging.info(f'не удалось удалить сообщение {e}')
     await query.message.answer_photo(caption=CONTACTS_AND_MENU_TEXT, parse_mode='HTML', reply_markup=contacts_and_menu_markup, photo=CONTACTS_PHOTO)
+    await query.answer()

@@ -19,4 +19,5 @@ async def handle_main_menu(query: CallbackQuery, bot: Bot, state: FSMContext):
         except Exception as e:
             logging.info(f'не удалось удалить сообщение {e}')
     await query.message.answer_photo(parse_mode='HTML', reply_markup=markup, photo=MAIN_MENU_PHOTO)
+    await query.answer()
     
