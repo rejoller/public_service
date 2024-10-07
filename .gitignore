@@ -10,3 +10,4 @@ utils/__pycache__/
 bot.log
 *.xlsx
 database/db_config.py
+bot.log
