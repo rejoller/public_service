@@ -5,7 +5,7 @@ results_markup = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="Принять участие в конкурсе", callback_data="want_to_participate", url='https://lpd.ranepa.ru/lk/register/136/'
+                text="Принять участие в конкурсе", callback_data="want_to_participate"
             )
         ],
 
